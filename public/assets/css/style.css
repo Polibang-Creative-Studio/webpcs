@@ -615,6 +615,19 @@ section {
   height: 100%;
 }
 
+.values h2 {
+  /* font-size: 24px;
+  font-weight: 700;
+  color: #012970; */
+  font-size: 20px;
+  font-family: Raleway;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #222222;
+  text-transform: uppercase;
+}
+
 .values .box img {
   padding: 30px 50px;
   transition: 0.5s;
@@ -622,8 +635,9 @@ section {
 }
 
 .values .box h3 {
-  font-size: 24px;
-  color: #012970;
+  font-size: 20px;
+  font-family: raleway;
+  color: #111111;
   font-weight: 700;
   margin-bottom: 18px;
 }
