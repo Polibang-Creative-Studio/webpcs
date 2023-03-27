@@ -139,7 +139,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
-              <img src="assets/img/values-1.png" class="img-fluid" alt="" style="height:60%;">
+              <img src="assets/img/makeweb.png" class="img-fluid" alt="" style="height:60%;">
               <h3>Pembuatan Website</h3>
               <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
             </div>
@@ -147,7 +147,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
-              <img src="assets/img/values-2.png" class="img-fluid" alt="" style="height:60%;">
+              <img src="assets/img/app.png" class="img-fluid" alt="" style="height:60%;">
               <h3>Upload Aplikasi ke Play Store</h3>
               <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
             </div>
