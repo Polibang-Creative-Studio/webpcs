@@ -94,11 +94,15 @@
     <section id="about" class="about">
 
       <div class="container" data-aos="fade-up">
+      <header class="section-header">
+          <h2><span style="color:#3498DB;">-</span>About US<span style="color:#3498DB;">-</span></h2>
+          <!-- <p>Odit est perspiciatis laborum et dicta</p> -->
+        </header>
         <div class="row gx-0">
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>Who We Are</h3>
+              <h3>About Us</h3>
               <h4>Politeknik Balekambang Creative Studio</h4>
               <p>
                 Deskripsi PCS Polibang
@@ -113,7 +117,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
 
         </div>
