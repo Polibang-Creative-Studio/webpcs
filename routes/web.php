@@ -29,6 +29,10 @@ Route::get('/dashboard', function () {
     return view('/admin/dashboard');
 });
 
+Route::get('/table', function () {
+    return view('/admin/table');
+});
+
 // Route::get('/about', function () {
 //     return view('about');
 // });
