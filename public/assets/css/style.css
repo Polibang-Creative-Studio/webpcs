@@ -51,21 +51,23 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
+  font-size: 20px;
+  font-family: raleway;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #222222;
   text-transform: uppercase;
 }
 
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 14px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #444444;
+  font-family: open sans;
 }
 
 @media (max-width: 768px) {
