@@ -21,9 +21,6 @@ Route::get('/index', function () {
     return view('/admin/index');
 });
 
-Route::get('/register', function () {
-    return view('/admin/register');
-});
 
 Route::get('/dashboard', function () {
     return view('/admin/dashboard');
@@ -33,6 +30,9 @@ Route::get('/table', function () {
     return view('/admin/table');
 });
 
+Route::get('/add', function () {
+    return view('/admin/add');
+});
 // Route::get('/about', function () {
 //     return view('about');
 // });

@@ -46,7 +46,7 @@
                 class="sidebar-item active ">
                 <a href="index.html" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
-                    <span>Dashboardd</span>
+                    <span>Dashboard</span>
                 </a>
             </li>
             

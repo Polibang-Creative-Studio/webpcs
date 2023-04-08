@@ -43,7 +43,7 @@
             <li class="sidebar-title">Menu</li>
             
             <li
-            class="sidebar-item  has-sub">
+                class="sidebar-item has-sub ">
                 <a href="dashboard" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
@@ -51,13 +51,13 @@
             </li>
             
             <li
-            class="sidebar-item ">
-                <a href="#" class='sidebar-link'>
+                class="sidebar-item  has-sub">
+                <a href="table" class='sidebar-link'>
                     <i class="bi bi-stack"></i>
                     <span>Biografi</span>
                 </a>
                 <ul class="submenu ">
-                    <li class="submenu-item active ">
+                    <li class="submenu-item active">
                         <a href="table">Tabel</a>
                     </li>
                     <!-- <li class="submenu-item ">
@@ -440,89 +440,97 @@
                     <i class="bi bi-justify fs-3"></i>
                 </a>
             </header>
-            
+         
 <div class="page-heading">
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>Table</h3>
-                <p class="text-subtitle text-muted">Who does not love tables</p>
+                <h3>Tambah Data</h3>
+                <p class="text-subtitle text-muted">Give textual form controls like input upgrade with custom styles,
+                    sizing, focus states, and more.</p>
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="dasboard">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li>
                         <li class="breadcrumb-item" aria-current="page">Biografi</li>
-                        <li class="breadcrumb-item active" aria-current="page">Table</li>
+                        <li class="breadcrumb-item" aria-current="page">Table</li>
+                        <li class="breadcrumb-item active" aria-current="page">Tambah Data</li>
                     </ol>
                 </nav>
             </div>
         </div>
     </div>
-
- 
-
-    <!-- Bordered table start -->
     <section class="section">
-        <div class="row" id="table-bordered">
-            <div class="col-12">
-                <div class="card">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Tambah Data</h4>
+            </div>
+<!-- batas 1 -->
+<!-- 
                     <div class="card-header">
-                        <h4 class="card-title">Table</h4>
+                        Textarea with Title
                     </div>
-                    <div class="card-content">
-                        <!-- <div class="card-body">
-                             <p class="card-text">Add <code>.table-bordered</code> for borders on all sides of the table
-                                and
-                                cells. For
-                                Inverse Dark Table, add <code>.table-dark</code> along with
-                                <code>.table-bordered</code>.
-                            </p> 
-                        </div> -->
-                        <!-- table bordered -->
-                        <div class="table-responsive">
-                            <table class="table table-bordered mb-0">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Judul</th>
-                                        <th>Keterangan</th>
-                                        <th>Foto</th>
-                                        <th>ACTION</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="text-bold-500">1</td>
-                                        <td>Tahunan</td>
-                                        <td class="text-bold-500">PKM</td>
-                                        <td>Foto Bersama</td>
-                                        <td><a href="add"><i
-                                                    class="badge-circle badge-circle-light-secondary font-medium-1"
-                                                    data-feather="mail"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-bold-500">2</td>
-                                        <td>Teluk Awur</td>
-                                        <td class="text-bold-500">P2MD</td>
-                                        <td>Foto Bersama</td>
-                                        <td><a href="add"><i
-                                                    class="badge-circle badge-circle-light-secondary font-medium-1"
-                                                    data-feather="mail"></i></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div class="card-body">
+                        <div class="form-group with-title mb-2">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            <label>Your experience</label>
                         </div>
+                    </div> -->
+    
+<!-- batas -->
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="basicInput">Judul</label>
+                            <input type="text" class="form-control" id="basicInput" placeholder="Judul">
+                        </div>
+                        <div class="form-group">
+                            <label for="basicInput">Keterangan</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="formFile" class="form-label">Foto</label>
+                            <input class="form-control" type="file" id="formFile">
+                          </div>
+                        <!-- <div class="form-group">
+                            <label for="helpInputTop">Input text with help</label>
+                            <small class="text-muted">eg.<i>someone@example.com</i></small>
+                            <input type="text" class="form-control" id="helpInputTop">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="helperText">With Helper Text</label>
+                            <input type="text" id="helperText" class="form-control" placeholder="Name">
+                            <p><small class="text-muted">Find helper text here for given textbox.</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="disabledInput">Disabled Input</label>
+                            <input type="text" class="form-control" id="disabledInput" placeholder="Disabled Text"
+                                disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="disabledInput">Readonly Input</label>
+                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly"
+                                value="You can't update me :P">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="disabledInput">Static Text</label>
+                            <p class="form-control-static" id="staticInput">email@mazer.com</p>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Bordered table end -->
 
    
 
-   
+</div>
 
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
@@ -537,8 +545,8 @@
             </footer>
         </div>
     </div>
-    <script src="assets/admin/js/bootstrap.js"></script>
-    <script src="assets/admin/js/app.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/app.js"></script>
     
 </body>
 
