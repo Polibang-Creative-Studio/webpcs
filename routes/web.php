@@ -29,17 +29,17 @@ Route::get('/dashboard', function () {
     return view('/admin/dashboard');
 });
 
-// Route::get('/about', function () {
-//     return view('about');
-// });
+Route::get('/about', function () {
+    return view('about',[ "title" => "About"]);
+});
 
-// Route::get('/services', function () {
-//     return view('services');
-// });
+Route::get('/services', function () {
+    return view('services',[ "title" => "Services"]);
+});
 
-// Route::get('/portofolio', function () {
-//     return view('portofolio');
-// });
+Route::get('/portofolio', function () {
+    return view('portofolio',[ "title" => "Portofolio"]);
+});
 
 // Route::get('/team', function () {
 //     return view('team');
