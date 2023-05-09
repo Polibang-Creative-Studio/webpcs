@@ -55,7 +55,7 @@
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -179,103 +179,103 @@
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
+          <!-- <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">ALL</li>
               <li data-filter=".filter-app">WEBSITE</li>
               <li data-filter=".filter-card">PLAY STORE</li>
               <li data-filter=".filter-web">CCTV</li>
             </ul>
-          </div>
+          </div> -->
         </div>
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.2.jpg" class="img-fluid" alt="" width="400" height="250">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
+                <h4>Dokumentasi</h4>
+                <p>Simpel Kontek</p>
+                <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.1.jpg" class="img-fluid" alt="" width="400" height="250">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
+                <h4>Website</h4>
+                <p>simpel Kontek</p>
+                <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.3.jpg" class="img-fluid" alt="" width="400" height="250">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
+                <h4>Dokumentasi</h4>
+                <p>Simpel Kontek</p>
+                <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.6 (2).jpg" class="img-fluid" alt="" style="width:400px;">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
+                <h4>App</h4>
+                <p>Simpel Kontek</p>
+                <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.7 (2).jpg" class="img-fluid" alt="" style="width:400px;">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
+                <h4>App</h4>
+                <p>Simpel Kontek</p>
+                <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.8 (2).jpg" class="img-fluid" alt="" style="width:400px;">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
+                <h4>App</h4>
+                <p>Simpel Kontek</p>
+                <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -315,7 +315,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -335,10 +335,10 @@
 
   <div class="row gy-4">
 
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
       <div class="member">
         <div class="member-img">
-          <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+          <img src="assets/img/team/team-1.1.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -347,17 +347,17 @@
           </div>
         </div>
         <div class="member-info">
-          <h4>Walter White</h4>
-          <span>Chief Executive Officer</span>
+          <h4>Indra Kurniawan, M. Kom.</h4>
+          <span>Mentor</span>
           <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
       <div class="member">
         <div class="member-img">
-          <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+          <img src="assets/img/team/team-1.2.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -366,17 +366,17 @@
           </div>
         </div>
         <div class="member-info">
-          <h4>Sarah Jhonson</h4>
-          <span>Product Manager</span>
+          <h4>Yasa Maulana</h4>
+          <span>Ketua Polibang Creative Studio</span>
           <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
       <div class="member">
         <div class="member-img">
-          <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+          <img src="assets/img/team/team-1.3.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -385,17 +385,17 @@
           </div>
         </div>
         <div class="member-info">
-          <h4>William Anderson</h4>
-          <span>CTO</span>
+          <h4>Ana Amalya</h4>
+          <span>Ketua Tim Administrasi Dan Keuangan</span>
           <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
       <div class="member">
         <div class="member-img">
-          <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+          <img src="assets/img/team/team-1.4.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -404,9 +404,161 @@
           </div>
         </div>
         <div class="member-info">
-          <h4>Amanda Jepson</h4>
-          <span>Accountant</span>
-          <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+          <h4>Ulil Absor</h4>
+          <span>Staf Keuangan</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-1.5.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Muhammad Muhaimin</h4>
+          <span>Staf Administrasi</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-1.6.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Ulya Nafisatussaniyah</h4>
+          <span>Staf Administrasi</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-1.7.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Dewi Antari</h4>
+          <span>Ketua Tim Marketing</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-1.8.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Fina Ristia Nanda</h4>
+          <span>Staf Marketing</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-1.9.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Laily Izzatul Muniroh</h4>
+          <span>Staf Digital Branding</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.0.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Ririn Indah Ustiyasari</h4>
+          <span>Staf Digital Branding</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.1.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Amar Ghifari</h4>
+          <span>Ketua Tim Software Dev</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.2.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Teguh Muhamad Ridhuwan</h4>
+          <span>Intershif Web Dev</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
         </div>
       </div>
     </div>
@@ -502,7 +654,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!-- <section id="faq" class="faq">
 
       <div class="container" data-aos="fade-up">
 
@@ -512,9 +664,9 @@
         </header>
 
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6"> -->
             <!-- F.A.Q List 1-->
-            <div class="accordion accordion-flush" id="faqlist1">
+            <!-- <div class="accordion accordion-flush" id="faqlist1">
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
@@ -557,10 +709,10 @@
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6"> -->
 
             <!-- F.A.Q List 2-->
-            <div class="accordion accordion-flush" id="faqlist2">
+            <!-- <div class="accordion accordion-flush" id="faqlist2">
 
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -608,7 +760,7 @@
 
       </div>
 
-    </section><!-- End F.A.Q Section -->
+    </section>End F.A.Q Section -->
 
     
 
@@ -743,7 +895,7 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
+    <!-- <section id="recent-blog-posts" class="recent-blog-posts">
 
       <div class="container" data-aos="fade-up">
 
@@ -783,12 +935,12 @@
 
         </div>
 
-      </div>
+      </div> -->
 
-    </section><!-- End Recent Blog Posts Section -->
+    <!-- </section>End Recent Blog Posts Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
 
       <div class="container" data-aos="fade-up">
 
@@ -797,105 +949,22 @@
           <p>Contact Us</p>
         </header>
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street,<br>New York, NY 535022</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-
-          </div>
-
-        </div>
-
       </div>
 
-    </section><!-- End Contact Section -->
+    </section>End Contact Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12 text-center">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          </div>
-          <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="container" data-aos="fade-up">
 
     <div class="footer-top">
       <div class="container">
+      <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
