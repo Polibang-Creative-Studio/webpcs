@@ -1444,12 +1444,12 @@ section {
 }
 
 .team .member .member-img {
-  position: relative;
+  position: inherit;
   overflow: hidden;
 }
 
 .team .member .member-img:after {
-  position: absolute;
+  position: inherit;
   content: "";
   left: 0;
   bottom: 0;
