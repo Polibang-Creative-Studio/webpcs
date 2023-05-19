@@ -5,13 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Mazer Admin Dashboard</title>
+    <title>Polibang Creative Studio</title>
     <link rel="stylesheet" href="assets/admin/css/main/app.css">
     <link rel="stylesheet" href="assets/admin/css/pages/auth.css">
-    <link rel="shortcut icon" href="assets/admin/images/logo/favicon.svg" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/admin/images/logo/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
 </head>
-
+<!-- <img src="assets/img/logopcs.png" -->
 <body>
     <div id="auth">
         
@@ -20,10 +20,12 @@
         <div id="auth-left">
             <div class="auth-logo">
                 <a href="index"><img src="assets/img/logopcs.png" alt="Logo"></a>
-            </div>
-            <h1 class="auth-title">Log in.</h1>
-            <p class="auth-subtitle mb-5">Log in with your data that you entered during registration.</p>
-
+                <br>
+                <br>
+             
+            <!-- <h2 class="">Log in.</h2> -->
+            <p class="auth-subtitle mb-3">Silahkan Masukan Username dan Password</p>
+           
             <form action="dashboard">
                 <div class="form-group position-relative has-icon-left mb-4">
                     <input type="text" class="form-control form-control-xl" placeholder="Username">
@@ -45,6 +47,7 @@
                 </div>
                 <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
             </form>
+            </div>
             <!-- <div class="text-center mt-5 text-lg fs-4">
                 <p class="text-gray-600">Don't have an account? <a href="register" class="font-bold">Sign
                         up</a>.</p>

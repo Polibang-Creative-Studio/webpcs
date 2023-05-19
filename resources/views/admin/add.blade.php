@@ -43,7 +43,7 @@
             <li class="sidebar-title">Menu</li>
             
             <li
-                class="sidebar-item has-sub ">
+            class="sidebar-item ">
                 <a href="dashboard" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
@@ -51,8 +51,8 @@
             </li>
             
             <li
-                class="sidebar-item  has-sub">
-                <a href="table" class='sidebar-link'>
+            class="sidebar-item has-sub active">
+                <a href="" class='sidebar-link'>
                     <i class="bi bi-stack"></i>
                     <span>Biografi</span>
                 </a>
@@ -461,11 +461,18 @@
             </div>
         </div>
     </div>
+
+ 
+
+    <!-- Bordered table start -->
     <section class="section">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="card-title">Tambah Data</h4>
-            </div>
+        <div class="row" id="table-bordered">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Tambah Data</h4>
+                    </div>
+                    <div class="card-content">
 <!-- batas 1 -->
 <!-- 
                     <div class="card-header">
@@ -493,45 +500,28 @@
                         <div class="form-group mb-3">
                             <label for="formFile" class="form-label">Foto</label>
                             <input class="form-control" type="file" id="formFile">
+                            <br>
+                            <!-- button -->
+                               <div class="col-12 d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary me-1 mb-1">
+                              Submit
+                            </button>
+                            <button  type="reset" class="btn btn-light-secondary me-1 mb-1"> <a href="table">Back </a> </button>
                           </div>
-                        <!-- <div class="form-group">
-                            <label for="helpInputTop">Input text with help</label>
-                            <small class="text-muted">eg.<i>someone@example.com</i></small>
-                            <input type="text" class="form-control" id="helpInputTop">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="helperText">With Helper Text</label>
-                            <input type="text" id="helperText" class="form-control" placeholder="Name">
-                            <p><small class="text-muted">Find helper text here for given textbox.</small></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="disabledInput">Disabled Input</label>
-                            <input type="text" class="form-control" id="disabledInput" placeholder="Disabled Text"
-                                disabled>
-                        </div>
-                        <div class="form-group">
-                            <label for="disabledInput">Readonly Input</label>
-                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly"
-                                value="You can't update me :P">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="disabledInput">Static Text</label>
-                            <p class="form-control-static" id="staticInput">email@mazer.com</p>
-                        </div> -->
+                          </div>
+                     
                     </div>
                 </div>
             </div>
         </div>
+     
     </section>
 
    
 
-</div>
+<!-- </div> -->
 
+        
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
@@ -545,9 +535,8 @@
             </footer>
         </div>
     </div>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/app.js"></script>
-    
+    <script src="assets/admin/js/bootstrap.js"></script>
+    <script src="assets/admin/js/app.js"></script>
 </body>
 
 </html>
