@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +44,7 @@
             <li class="sidebar-title">Menu</li>
             
             <li
-            class="sidebar-item  has-sub">
+            class="sidebar-item ">
                 <a href="dashboard" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
@@ -51,13 +52,13 @@
             </li>
             
             <li
-            class="sidebar-item ">
-                <a href="#" class='sidebar-link'>
+            class="sidebar-item has-sub active">
+                <a href="" class='sidebar-link'>
                     <i class="bi bi-stack"></i>
                     <span>Biografi</span>
                 </a>
                 <ul class="submenu ">
-                    <li class="submenu-item active ">
+                    <li class="submenu-item active">
                         <a href="table">Tabel</a>
                     </li>
                     <!-- <li class="submenu-item ">
