@@ -54,9 +54,9 @@
           <li><a class="nav-link scrollto" href="#values">Services</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
           <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="#about">Login Admin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -74,7 +74,7 @@
           <h2 data-aos="fade-up" data-aos-delay="400">Kami adalah tim yang terampil dalam bidang teknologi dan siap membantu memenuhi kebutuhan IT Anda</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="#values" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -108,12 +108,12 @@
               <p>
                 Deskripsi PCS Polibang
               </p>
-              <div class="text-center text-lg-start">
+              <!-- <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                   <span>Read More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -142,7 +142,11 @@
             <div class="box">
               <img src="assets/img/makeweb.png" class="img-fluid" alt="" style="height:60%;">
               <h3>Pembuatan Website</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+              <p>
+              Kami melayani pembuatan website untuk perusahaan, toko online, personal blog, hotel, restoran, 
+              sekolah, kampus, instansi pemerintah, rumah sakit, organisasi, yayasan, komunitas, landing page, dan lain-lain. 
+              <br>Silakan hubungi kami lebih lanjut!!
+              </p>
             </div>
           </div>
 
@@ -150,7 +154,10 @@
             <div class="box">
               <img src="assets/img/app.png" class="img-fluid" alt="" style="height:60%;">
               <h3>Upload Aplikasi ke Play Store</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+              <p>
+              Kami melayani jasa penguploadan aplikasi ke playstore melalui akun Google developer kami
+              dengan ketentuan tidak menerima aplikasi judi, porn, dan mengandung sara. <br>Silahkan hubungi kami lebih lanjut!!
+              </p>
             </div>
           </div>
 
@@ -158,7 +165,9 @@
             <div class="box">
               <img src="assets/img/cctv.png" class="img-fluid" alt="" style="height:60%;">
               <h3>Jasa Pasang CCTV</h3>
-              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+              <p>Kami melayani jasa pemasangan cctv dengan keterampilan yang dimiliki oleh tim terbaik kami
+                serta menawarkat beberapa paket pemasangan yang lebih menarik.<br>Silakan hubungi kami lebih lanjut!!
+              </p>
             </div>
           </div>
 
@@ -221,7 +230,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.3.jpg" class="img-fluid" alt="" width="400" height="250">
+              <img src="assets/img/portfolio/portfolio-1.4.jpg" class="img-fluid" alt="" width="400" height="250">
               <div class="portfolio-info">
                 <h4>Dokumentasi</h4>
                 <p>Simpel Kontek</p>
@@ -340,16 +349,17 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.1.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/aindra_kurniawan/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Indra Kurniawan, M. Kom.</h4>
           <span>Mentor</span>
-          <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+          <p>"Melakukan kegiatan pembelajaran/sharing session dengan mahasiswa sesuai jadwal yang ditetapkan. Melakukan observasi, 
+            monitoring, memberikan masukan dan saran perbaikan terkait kinerja mahasiswa."</p>
         </div>
       </div>
     </div>
@@ -359,16 +369,19 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.2.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/yasa.maulana1/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Yasa Maulana</h4>
           <span>Ketua Polibang Creative Studio</span>
-          <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+          <p>
+          "Melaksanakan fungsi manajemen organisasi meliputi: Perencanaan, Pengorganisasian, Pengaturan staff, 
+          Koordinasi, Pelaksanaan program, Pengawasan, Evaluasi dan Penyusunan anggaran."
+          </p>
         </div>
       </div>
     </div>
@@ -378,16 +391,18 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.3.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/ana_amalya/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Ana Amalya</h4>
           <span>Ketua Tim Administrasi Dan Keuangan</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>
+          "Bertanggungjawab untuk memimpin dalam memanajemen Pengelolaan administrasi dan penyusunan anggaran."
+          </p>
         </div>
       </div>
     </div>
@@ -397,16 +412,18 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.4.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/ulilabsor._/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Ulil Absor</h4>
           <span>Staf Keuangan</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>Bertanggung jawab dan mengelola arus keluar masuknya uang, terutama iuran dalam organisasi serta
+          Membuat laporan pertanggungjawaban dari setiap program kerja yang telah dilaksanakan.
+          </p>
         </div>
       </div>
     </div>
@@ -416,16 +433,18 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.5.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/muhaimin_ahm/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Muhammad Muhaimin</h4>
           <span>Staf Administrasi</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>
+            "Melakukan tata kelola administrasi seperti membuat surat-menyurat serta pembukuan dan mengelola dokumen."
+          </p>
         </div>
       </div>
     </div>
@@ -435,16 +454,18 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.6.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/ulyanafisatus/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Ulya Nafisatussaniyah</h4>
           <span>Staf Administrasi</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>
+          "Melakukan tata kelola administrasi seperti membuat surat-menyurat serta pembukuan dan mengelola dokumen."
+          </p>
         </div>
       </div>
     </div>
@@ -454,16 +475,16 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.7.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/itsme.tariii_/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Dewi Antari</h4>
           <span>Ketua Tim Marketing</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>"Bertanggungjawab memimpin anggota dalam melakukan promosi kegiatan"</p>
         </div>
       </div>
     </div>
@@ -473,16 +494,16 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.8.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/fina_ristiaa/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Fina Ristia Nanda</h4>
           <span>Staf Marketing</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>"Membantu melaksanakan dalam berpromosi kegiatan"</p>
         </div>
       </div>
     </div>
@@ -492,16 +513,74 @@
         <div class="member-img">
           <img src="assets/img/team/team-1.9.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/lailyizzaa/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
           <h4>Laily Izzatul Muniroh</h4>
           <span>Staf Digital Branding</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.3.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Ririn Indah Ustiyasari</h4>
+          <span>Staf Digital Branding</span>
+          <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.4.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/et.ghif/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Amar Ghifari</h4>
+          <span>Ketua Tim Software Dev</span>
+          <p>"Bertanggungjawab untuk menyampaikan segala hal yang berkaitan dengan proyek , mengatur dan mengelola 
+            kegiatan keseharian tim sehingga lebih efisien, memiliki jiwa profesional yang tinggi, serta memastikan semua target yang telah ditentukan dalam tim dapat terpenuhi tepat waktu."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.5.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Teguh Muhamad Ridhuwan</h4>
+          <span>Intershif Web Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
         </div>
       </div>
     </div>
@@ -511,16 +590,16 @@
         <div class="member-img">
           <img src="assets/img/team/team-2.0.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/nandhaayura/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
-          <h4>Ririn Indah Ustiyasari</h4>
-          <span>Staf Digital Branding</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <h4>Nandha Ayu Ramadhani</h4>
+          <span>Intershif Web Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
         </div>
       </div>
     </div>
@@ -530,16 +609,16 @@
         <div class="member-img">
           <img src="assets/img/team/team-2.1.jpg" class="img-fluid" alt="">
           <div class="social">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/ar.depp/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
         <div class="member-info">
-          <h4>Amar Ghifari</h4>
-          <span>Ketua Tim Software Dev</span>
-          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          <h4>Deva Arya Saputra</h4>
+          <span>Intershif Web Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
         </div>
       </div>
     </div>
@@ -549,17 +628,202 @@
         <div class="member-img">
           <img src="assets/img/team/team-2.2.jpg" class="img-fluid" alt="">
           <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/nizar_4fif/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Nizar Nur Afif</h4>
+          <span>Intershif Mobile Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah aplikasi android dengan bahasa pemrograman"</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.6.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/ibadirsyadul33/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Irsyadul Ibad</h4>
+          <span>Dev OPS</span>
+          <p>
+            "Menulis dokumentasi untuk fitur di sisi server (server-side). Mengembangkan, memasang, menguji, mengonfigurasi, dan memelihara solusi IT (perangkat keras maupun perangkat lunak). 
+            Mengomunikasikan persyaratan operasional dan prakiraan pengembangan dengan semua orang di tim."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.7.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/achmad.izza/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Alfani Achmad Izza</h4>
+          <span>Ketua Tim Multimedia</span>
+          <p>
+            "Membuat dan mengedit video. merancang desain grafis. membuat animasi. membuat konten lainnya untuk berbagai jenis media."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.8.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/jhonnysul/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Muhammad Sulthony</h4>
+          <span>Konten Kreator</span>
+          <p>
+            "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-2.9.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/slrkhdll/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Salu Rukhi Delle Alpi</h4>
+          <span>Konten Kreator</span>
+          <p>
+            "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-3.0.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Dina Istiyana</h4>
+          <span>Konten Kreator</span>
+          <p>"Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-3.1.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+        <div class="member-info">
+          <h4>Niken Nazwa Salsabillah</h4>
+          <span>Desain Grafis</span>
+          <p>
+            "Menyiapkan segala bentuk material untuk diubah menjadi bentuk visual dan
+Membuat merencanakan konsep dari segala informasi tentang organisasi"
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-3.2.jpg" class="img-fluid" alt="">
+          <div class="social">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-        <div class="member-info">
-          <h4>Teguh Muhamad Ridhuwan</h4>
-          <span>Intershif Web Dev</span>
+        <!-- <div class="member-info">
+          <h4>Niken Nazwa Salsabillah</h4>
+          <span>Desain Grafis</span>
           <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-3.3.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <!-- <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/m_kamali07/"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
         </div>
+        <div class="member-info">
+          <h4>Muhamad Kamali</h4>
+          <span>Ketua Tim Jaringan Komputer</span>
+          <p>
+            "Melaksanakan, mengelola, mengembangkan, dan memperbaiki perangkat keras dan lunak untuk infrastruktur TIK agar dukungan layanan TIK di unit kerja lancar dan tersedia dengan baik."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+      <div class="member">
+        <div class="member-img">
+          <img src="assets/img/team/team-3.4.jpg" class="img-fluid" alt="">
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <!-- <div class="member-info">
+          <h4>Niken Nazwa Salsabillah</h4>
+          <span>Desain Grafis</span>
+          <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+        </div> -->
       </div>
     </div>
 
@@ -571,7 +835,7 @@
 
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
 
       <div class="container" data-aos="fade-up">
 
@@ -649,9 +913,9 @@
 
         </div>
 
-      </div>
+      </div> -->
 
-    </section><!-- End Pricing Section -->
+    <!-- </section>End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
     <!-- <section id="faq" class="faq">
@@ -874,12 +1138,12 @@
 
         <header class="section-header">
           <h2>Our Clients</h2>
-          <p>Temporibus omnis officia</p>
+          <!-- <p>Temporibus omnis officia</p> -->
         </header>
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.1.jpg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
@@ -963,55 +1227,41 @@
       <div class="container">
       <header class="section-header">
           <h2>Contact</h2>
-          <p>Contact Us</p>
+          <!-- <p>Contact Us</p> -->
         </header>
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.png" alt="">
-              <span>FlexStart</span>
+              <img src="assets/img/logopcs.png" alt="">
+              <!-- <span>FlexStart</span> -->
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Kami adalah tim yang terampil dalam bidang teknologi dan siap membantu memenuhi kebutuhan IT Anda</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+              <a href="https://www.instagram.com/pcspolibang/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.youtube.com/@polibangcreativestudio2384" class="youtube"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
+            <h4>Our Services</h4>
+            <p>
+              - Pembuatan Website <br>
+              - Upload Aplikasi Ke Playstore<br>
+              - Jasa Pemasangan CCTV <br><br>
+            </p>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
+              Kepel, Buaran, Kec. Mayong<br>
+              Kabupaten Jepara<br>
+               Jawa Tengah 59465<br><br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> polibangcreativestudio@gmail.com<br>
             </p>
-
           </div>
 
         </div>
