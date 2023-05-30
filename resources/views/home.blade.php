@@ -56,7 +56,7 @@
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
           <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Login Admin</a></li>
+          <li><a class="getstarted scrollto" href="http://127.0.0.1:8000/index">Login Admin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,12 +73,12 @@
           <h1 data-aos="fade-up">Polibang Creative Studio</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Kami adalah tim yang terampil dalam bidang teknologi dan siap membantu memenuhi kebutuhan IT Anda</h2>
           <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
+            <!-- <div class="text-center text-lg-start">
               <a href="#values" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
@@ -106,7 +106,16 @@
               <h3>About Us</h3>
               <h4>Politeknik Balekambang Creative Studio</h4>
               <p>
-                Deskripsi PCS Polibang
+              <strong>Visi</strong><br>
+              Mewujudkan PCS sebagai organisasi yang berintegritas, 
+              progresif, dan berkualitas dalam meningkatkan kemampuan mahasiswa.<br>
+              <strong>Misi</strong><br>
+              1. Meningkatkan kualitas SDM Fakultas Hukum UPJ.<br>
+              2. Menjadikan HMFH sebagai wadah untuk mahasiswa menyalurkan aspirasi dan berpartisipasi dalam 
+              berbagai kegiatan.<br>
+              3. Meningkatkan skill mahasiswa dalam bidang hukum.<br>
+              4. Sebagai sarana dan wadah mahasiswa mengasah potensi dan mengembangkan diri.<br>
+              5. Menumbuhkan kepedulian mahasiswa terhadap isu-isu dalam kampus maupun di luar kampus.<br>
               </p>
               <!-- <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
@@ -140,33 +149,39 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
-              <img src="assets/img/makeweb.png" class="img-fluid" alt="" style="height:60%;">
+              <img src="assets/img/makeweb.png" class="img-fluid" alt="" style="height:50%;">
               <h3>Pembuatan Website</h3>
               <p>
               Kami melayani pembuatan website untuk perusahaan, toko online, personal blog, hotel, restoran, 
               sekolah, kampus, instansi pemerintah, rumah sakit, organisasi, yayasan, komunitas, landing page, dan lain-lain. 
-              <br>Silakan hubungi kami lebih lanjut!!
+              <br>
+              Silahkan klik link di bawah ini untuk lebih lanjut!!<br>
+              <a href="https://wa.me/62895604244414"><strong>Klik Me</strong></a>
               </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
-              <img src="assets/img/app.png" class="img-fluid" alt="" style="height:60%;">
+              <img src="assets/img/app.png" class="img-fluid" alt="" style="height:50%;">
               <h3>Upload Aplikasi ke Play Store</h3>
               <p>
               Kami melayani jasa penguploadan aplikasi ke playstore melalui akun Google developer kami
-              dengan ketentuan tidak menerima aplikasi judi, porn, dan mengandung sara. <br>Silahkan hubungi kami lebih lanjut!!
+              dengan ketentuan tidak menerima aplikasi judi, porn, dan mengandung sara. <br>
+              Silahkan klik link di bawah ini untuk lebih lanjut!!<br>
+              <a href="https://wa.me/62895604244414"><strong>Klik Me</strong></a>
               </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div class="box">
-              <img src="assets/img/cctv.png" class="img-fluid" alt="" style="height:60%;">
+              <img src="assets/img/cctv.png" class="img-fluid" alt="" style="height:50%;">
               <h3>Jasa Pasang CCTV</h3>
               <p>Kami melayani jasa pemasangan cctv dengan keterampilan yang dimiliki oleh tim terbaik kami
-                serta menawarkat beberapa paket pemasangan yang lebih menarik.<br>Silakan hubungi kami lebih lanjut!!
+                serta menawarkat beberapa paket pemasangan yang lebih menarik.<br>
+                Silahkan klik link di bawah ini untuk lebih lanjut!!<br>
+              <a href="https://wa.me/62895604244414"><strong>Klik Me</strong></a>
               </p>
             </div>
           </div>
@@ -219,7 +234,9 @@
               <img src="assets/img/portfolio/portfolio-1.1.jpg" class="img-fluid" alt="" width="400" height="250">
               <div class="portfolio-info">
                 <h4>Website</h4>
-                <p>simpel Kontek</p>
+                <p>simpel Kontek
+                  <br><a href="https://play.google.com/store/apps/details?id=com.bbpbap.simpelkontek">Link Download</a>
+                </p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
@@ -247,7 +264,9 @@
               <img src="assets/img/portfolio/portfolio-1.6 (2).jpg" class="img-fluid" alt="" style="width:400px;">
               <div class="portfolio-info">
                 <h4>App</h4>
-                <p>Simpel Kontek</p>
+                <p>Simpel Kontek
+                <br><a href="https://play.google.com/store/apps/details?id=com.bbpbap.simpelkontek">Link Download</a>
+                </p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
@@ -261,7 +280,9 @@
               <img src="assets/img/portfolio/portfolio-1.7 (2).jpg" class="img-fluid" alt="" style="width:400px;">
               <div class="portfolio-info">
                 <h4>App</h4>
-                <p>Simpel Kontek</p>
+                <p>Simpel Kontek
+                <br><a href="https://play.google.com/store/apps/details?id=com.bbpbap.simpelkontek">Link Download</a>
+                </p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
@@ -275,7 +296,9 @@
               <img src="assets/img/portfolio/portfolio-1.8 (2).jpg" class="img-fluid" alt="" style="width:400px;">
               <div class="portfolio-info">
                 <h4>App</h4>
-                <p>Simpel Kontek</p>
+                <p>Simpel Kontek
+                <br><a href="https://play.google.com/store/apps/details?id=com.bbpbap.simpelkontek">Link Download</a>
+                </p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
@@ -1144,13 +1167,13 @@ Membuat merencanakan konsep dari segala informasi tentang organisasi"
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><img src="assets/img/clients/client-1.1.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -1258,8 +1281,9 @@ Membuat merencanakan konsep dari segala informasi tentang organisasi"
             <p>
               Kepel, Buaran, Kec. Mayong<br>
               Kabupaten Jepara<br>
-               Jawa Tengah 59465<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+               Jawa Tengah 59465<br>
+               <strong>Phone:</strong>
+               <a href="https://wa.me/62895604244414"> +628956604244414</a><br>
               <strong>Email:</strong> polibangcreativestudio@gmail.com<br>
             </p>
           </div>
