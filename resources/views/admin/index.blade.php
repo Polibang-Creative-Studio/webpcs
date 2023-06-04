@@ -20,6 +20,7 @@
         <div class="center">
       <div id="auth-left">
           <center>  <div class="auth-logo">
+         
                 <a href="index"><img src="assets/img/logopcs.png" alt="Logo"></a>
                 <br>
                 <br>
@@ -27,6 +28,11 @@
             <!-- <h2 class="">Log in.</h2> -->
             <!-- <p class="auth-subtitle mb-2">Silahkan Masukan Username dan Password</p> -->
             <h4>Silahkan Masukan Username dan Password</h4>
+            @if ($message = Session::get('warning'))
+                 <div class="alert alert-danger" role="alert">
+                Silahkan Masukan Username
+                </div>
+            @endif
               <!-- <form action="dashboard"> -->
             <form action="/login" method="post"> 
                 @csrf
@@ -48,14 +54,12 @@
                         Keep me logged in
                     </label>
                 </div>
+               
                 <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
             </form>
             </div>
-            <!-- <div class="text-center mt-5 text-lg fs-4">
-                <p class="text-gray-600">Don't have an account? <a href="register" class="font-bold">Sign
-                        up</a>.</p>
-                <p><a class="font-bold" href="auth-forgot-password.html">Forgot password?</a>.</p>
-            </div> -->
+            
+          
 </div>
         </div>
     </div>
