@@ -23,9 +23,8 @@ public function authenticate(Request $request)
         $request->session()->regenerate();
         return redirect()->intended('/dashboard');
     } else {
-        return redirect('/login')->with('warning', 'akun belum aktif');
-   
-}
+        return redirect('/login')->with('warning', 'Email atau password tidak ditemukan');
+    }
    
     }
 }
