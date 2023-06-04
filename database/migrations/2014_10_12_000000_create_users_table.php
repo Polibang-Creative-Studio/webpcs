@@ -21,15 +21,7 @@ return new class extends Migration
             $table->timestamps();
         });
     }
-
-    // public function up(): void
-    // {
-    //     Schema::create('users', function (Blueprint $table) {
-    //         $table->string('name')->unique();
-    //         $table->string('email')->unique();
-    //         $table->string('password');
-    //     });
-    // }
+    
     /**
      * Reverse the migrations.
      */
