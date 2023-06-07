@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Mazer Admin Dashboard</title>
+    <title>Add Data</title>
     
     <link rel="stylesheet" href="assets/admin/css/main/app.css">
     <link rel="stylesheet" href="assets/admin/css/main/app-dark.css">
@@ -60,311 +60,19 @@
                     <li class="submenu-item active">
                         <a href="table">Tabel</a>
                     </li>
-                    <!-- <li class="submenu-item ">
-                        <a href="component-badge.html">Badge</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-breadcrumb.html">Breadcrumb</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-button.html">Button</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-card.html">Card</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-carousel.html">Carousel</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-collapse.html">Collapse</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-dropdown.html">Dropdown</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-list-group.html">List Group</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-modal.html">Modal</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-navs.html">Navs</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-pagination.html">Pagination</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-progress.html">Progress</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-spinner.html">Spinner</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="component-tooltip.html">Tooltip</a>
-                    </li> -->
+                 
                 </ul>
             </li>
+            
+           
             
             <!-- <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-collection-fill"></i>
-                    <span>Extra Components</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="extra-component-avatar.html">Avatar</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-sweetalert.html">Sweet Alert</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-toastify.html">Toastify</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-rating.html">Rating</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-divider.html">Divider</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-grid-1x2-fill"></i>
-                    <span>Layouts</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="layout-default.html">Default Layout</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-vertical-1-column.html">1 Column</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-vertical-navbar.html">Vertical Navbar</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-rtl.html">RTL Layout</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-horizontal.html">Horizontal Menu</a>
-                    </li>
-                </ul>
-            </li> -->
-            
-            <!-- <li class="sidebar-title">Forms &amp; Tables</li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-hexagon-fill"></i>
-                    <span>Form Elements</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="form-element-input.html">Input</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-element-input-group.html">Input Group</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-element-select.html">Select</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-element-radio.html">Radio</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-element-checkbox.html">Checkbox</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-element-textarea.html">Textarea</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  ">
-                <a href="form-layout.html" class='sidebar-link'>
-                    <i class="bi bi-file-earmark-medical-fill"></i>
-                    <span>Form Layout</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-journal-check"></i>
-                    <span>Form Validation</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="form-validation-parsley.html">Parsley</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-pen-fill"></i>
-                    <span>Form Editor</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="form-editor-quill.html">Quill</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-editor-ckeditor.html">CKEditor</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-editor-summernote.html">Summernote</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="form-editor-tinymce.html">TinyMCE</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  ">
-                <a href="table.html" class='sidebar-link'>
-                    <i class="bi bi-grid-1x2-fill"></i>
-                    <span>Table</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                    <span>Datatables</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="table-datatable.html">Datatable</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="table-datatable-jquery.html">Datatable (jQuery)</a>
-                    </li>
-                </ul>
-            </li> -->
-            
-            <!-- <li class="sidebar-title">Extra UI</li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-pentagon-fill"></i>
-                    <span>Widgets</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="ui-widgets-chatbox.html">Chatbox</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="ui-widgets-pricing.html">Pricing</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="ui-widgets-todolist.html">To-do List</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-egg-fill"></i>
-                    <span>Icons</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="ui-icons-bootstrap-icons.html">Bootstrap Icons </a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="ui-icons-fontawesome.html">Fontawesome</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="ui-icons-dripicons.html">Dripicons</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-bar-chart-fill"></i>
-                    <span>Charts</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="ui-chart-chartjs.html">ChartJS</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="ui-chart-apexcharts.html">Apexcharts</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  ">
-                <a href="ui-file-uploader.html" class='sidebar-link'>
-                    <i class="bi bi-cloud-arrow-up-fill"></i>
-                    <span>File Uploader</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-map-fill"></i>
-                    <span>Maps</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="ui-map-google-map.html">Google Map</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="ui-map-jsvectormap.html">JS Vector Map</a>
-                    </li>
-                </ul>
-            </li> -->
-            
-            <!-- <li class="sidebar-title">Pages</li>
-            
-            <li
-                class="sidebar-item  ">
-                <a href="application-email.html" class='sidebar-link'>
-                    <i class="bi bi-envelope-fill"></i>
-                    <span>Email Application</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  ">
-                <a href="application-chat.html" class='sidebar-link'>
-                    <i class="bi bi-chat-dots-fill"></i>
-                    <span>Chat Application</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  ">
-                <a href="application-gallery.html" class='sidebar-link'>
-                    <i class="bi bi-image-fill"></i>
-                    <span>Photo Gallery</span>
-                </a>
-            </li>
-            
-            <li
                 class="sidebar-item  ">
                 <a href="application-checkout.html" class='sidebar-link'>
                     <i class="bi bi-basket-fill"></i>
                     <span>Checkout Page</span>
                 </a>
-            </li> -->
+            </li> --> 
             
             <!-- <li
                 class="sidebar-item  has-sub">
@@ -445,7 +153,7 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>Tambah Data</h3>
+                <h3>Add Data</h3>
                 <p class="text-subtitle text-muted">Give textual form controls like input upgrade with custom styles,
                     sizing, focus states, and more.</p>
             </div>
@@ -455,7 +163,7 @@
                         <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li>
                         <li class="breadcrumb-item" aria-current="page">Biografi</li>
                         <li class="breadcrumb-item" aria-current="page">Table</li>
-                        <li class="breadcrumb-item active" aria-current="page">Tambah Data</li>
+                        <li class="breadcrumb-item active" aria-current="page">Add Data</li>
                     </ol>
                 </nav>
             </div>
@@ -470,36 +178,32 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">Tambah Data</h4>
+                        <h4 class="card-title">Add Data</h4>
                     </div>
                     <div class="card-content">
-<!-- batas 1 -->
-<!-- 
-                    <div class="card-header">
-                        Textarea with Title
-                    </div>
-                    <div class="card-body">
-                        <div class="form-group with-title mb-2">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-                            <label>Your experience</label>
-                        </div>
-                    </div> -->
+
     
 <!-- batas -->
+            <form action="/add" method="post" entype="multipart/form-data ">   
+            {{ csrf_field() }}
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="basicInput">Judul</label>
-                            <input type="text" class="form-control" id="basicInput" placeholder="Judul">
+                            <label for="basicInput">Title</label>
+                            <input type="text" name="Title" class="form-control" id="basicInput" placeholder="Title" required>
                         </div>
                         <div class="form-group">
-                            <label for="basicInput">Keterangan</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            <label for="basicInput">Heading</label>
+                            <input type="text" name="Heading" class="form-control" id="basicInput" placeholder="Heading"  required>
+                        </div>
+                        <div class="form-group">
+                            <label for="basicInput">Description</label>
+                            <textarea class="form-control" name="Description" id="exampleFormControlTextarea1" rows="2" placeholder="Description"  required></textarea>
                         </div>
                         <div class="form-group mb-3">
-                            <label for="formFile" class="form-label">Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <label for="formFile" class="form-label">Picture</label>
+                            <input class="form-control" type="file" name="Picture" id="formFile"  required>
                             <br>
                             <!-- button -->
                                <div class="col-12 d-flex justify-content-end">

@@ -1,12 +1,11 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Mazer Admin Dashboard</title>
+    <title>Edit Data</title>
     
     <link rel="stylesheet" href="assets/admin/css/main/app.css">
     <link rel="stylesheet" href="assets/admin/css/main/app-dark.css">
@@ -61,10 +60,83 @@
                     <li class="submenu-item active">
                         <a href="table">Tabel</a>
                     </li>
-                   
+                 
                 </ul>
             </li>
             
+           
+            
+            <!-- <li
+                class="sidebar-item  ">
+                <a href="application-checkout.html" class='sidebar-link'>
+                    <i class="bi bi-basket-fill"></i>
+                    <span>Checkout Page</span>
+                </a>
+            </li> --> 
+            
+            <!-- <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-person-badge-fill"></i>
+                    <span>Authentication</span>
+                </a>
+                <ul class="submenu ">
+                    <li class="submenu-item ">
+                        <a href="auth-login.html">Login</a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="auth-register.html">Register</a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="auth-forgot-password.html">Forgot Password</a>
+                    </li>
+                </ul>
+            </li>
+             -->
+            <!-- <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-x-octagon-fill"></i>
+                    <span>Errors</span>
+                </a>
+                <ul class="submenu ">
+                    <li class="submenu-item ">
+                        <a href="error-403.html">403</a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="error-404.html">404</a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="error-500.html">500</a>
+                    </li> -->
+                <!-- </ul>
+            </li>
+            
+            <li class="sidebar-title">Raise Support</li> -->
+            
+            <!-- <li
+                class="sidebar-item  ">
+                <a href="https://zuramai.github.io/mazer/docs" class='sidebar-link'>
+                    <i class="bi bi-life-preserver"></i>
+                    <span>Documentation</span>
+                </a>
+            </li>
+             -->
+            <!-- <li
+                class="sidebar-item  ">
+                <a href="https://github.com/zuramai/mazer/blob/main/CONTRIBUTING.md" class='sidebar-link'>
+                    <i class="bi bi-puzzle"></i>
+                    <span>Contribute</span>
+                </a>
+            </li> -->
+            
+            <!-- <li
+                class="sidebar-item  ">
+                <a href="https://github.com/zuramai/mazer#donation" class='sidebar-link'>
+                    <i class="bi bi-cash"></i>
+                    <span>Donate</span>
+                </a>
+            </li> -->
             
         </ul>
     </div>
@@ -76,20 +148,22 @@
                     <i class="bi bi-justify fs-3"></i>
                 </a>
             </header>
-            
+         
 <div class="page-heading">
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>Table</h3>
-                <p class="text-subtitle text-muted">Who does not love tables</p>
+                <h3>Edit Data</h3>
+                <p class="text-subtitle text-muted">Give textual form controls like input upgrade with custom styles,
+                    sizing, focus states, and more.</p>
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="dasboard">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li>
                         <li class="breadcrumb-item" aria-current="page">Biografi</li>
-                        <li class="breadcrumb-item active" aria-current="page">Table</li>
+                        <li class="breadcrumb-item" aria-current="page">Table</li>
+                        <li class="breadcrumb-item active" aria-current="page">Edit Data</li>
                     </ol>
                 </nav>
             </div>
@@ -99,65 +173,67 @@
  
 
     <!-- Bordered table start -->
-   
     <section class="section">
         <div class="row" id="table-bordered">
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <!-- <h4 class="card-title">Table</h4> -->
-                        <p style="text-align: right;" ><a href="add" style="color: white;">Tambah Data</a></p>
-                   
-                  
-                    <div class="card-content">
+                        <h4 class="card-title">Edit Data</h4>
                     </div>
-                        <!-- table bordered -->
-                        <div class="table-responsive">
-                      
-                            <table class="table table-bordered mb-0">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Title</th>
-                                        <th>Heading</th>
-                                        <th>Description</th>
-                                        <th>Picture</th>
-                                        <th><center>Action</th>
-                                    </tr>
-                                </thead>
-                           
-                                @foreach ($data as $d)
-                                <tbody>
-                                    <tr>
-                                    <td class="text-bold-500">{{$d['No'] }}</td>
-                                        <td>{{$d['Title'] }}</td>
-                                        <td class="text-bold-500">{{$d['Heading'] }}</td>
-                                        <td>{{$d['Description'] }}</td>
-                                        <td class="text-bold-500">{{$d['Picture'] }}</td>
-                                        <td><center><a href="edit"><i
-                                                    class="badge-circle badge-circle-light-secondary font-medium-1"
-                                                    data-feather="edit" ></i></a> &nbsp;
-                                            <a href="/delete/{{$d['No'] }}"><i 
-                                                    class="badge-circle badge-circle-light-secondary font-medium-1"
-                                                    data-feather="trash" ></i></a></td>
-                                                    
-                                    </tr>
-                                    @endforeach
-                                  
-                                </tbody>
-                            </table>
+                    <div class="card-content">
+<!-- batas 1 -->
+<!-- 
+                    <div class="card-header">
+                        Textarea with Title
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group with-title mb-2">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            <label>Your experience</label>
                         </div>
+                    </div> -->
+    
+<!-- batas -->
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="basicInput">Title</label>
+                            <input type="text" class="form-control" id="basicInput" placeholder="Title">
+                        </div>
+                        <div class="form-group">
+                            <label for="basicInput">Heading</label>
+                            <input type="text" class="form-control" id="basicInput" placeholder="Heading">
+                        </div>
+                        <div class="form-group">
+                            <label for="basicInput">Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Description"></textarea>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="formFile" class="form-label">Picture</label>
+                            <input class="form-control" type="file" id="formFile">
+                            <br>
+                            <!-- button -->
+                               <div class="col-12 d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary me-1 mb-1">
+                              Submit
+                            </button>
+                            <button  type="reset" class="btn btn-light-secondary me-1 mb-1"> <a href="table">Back </a> </button>
+                          </div>
+                          </div>
+                     
                     </div>
                 </div>
             </div>
         </div>
+     
     </section>
-    <!-- Bordered table end -->
 
    
 
-   
+<!-- </div> -->
 
+        
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
@@ -173,7 +249,6 @@
     </div>
     <script src="assets/admin/js/bootstrap.js"></script>
     <script src="assets/admin/js/app.js"></script>
-    
 </body>
 
 </html>
