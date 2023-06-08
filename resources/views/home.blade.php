@@ -199,7 +199,7 @@
 
         <header class="section-header">
           <h2>Portfolio</h2>
-          <p>Check our latest work</p>
+          <!-- <p>Check our latest work</p> -->
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -557,7 +557,7 @@
           <div class="social">
             <!-- <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a> -->
-            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/ustiya17/"><i class="bi bi-instagram"></i></a>
             <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
@@ -596,7 +596,7 @@
           <div class="social">
             <!-- <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a> -->
-            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/guh_dalem_09/"><i class="bi bi-instagram"></i></a>
             <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
@@ -694,7 +694,7 @@
           <div class="social">
             <!-- <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a> -->
-            <a href="https://www.instagram.com/achmad.izza/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/alfaniizza/"><i class="bi bi-instagram"></i></a>
             <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
@@ -757,7 +757,7 @@
           <div class="social">
             <!-- <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a> -->
-            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/dina_istiyana/"><i class="bi bi-instagram"></i></a>
             <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
@@ -776,7 +776,7 @@
           <div class="social">
             <!-- <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a> -->
-            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/nknnzw/"><i class="bi bi-instagram"></i></a>
             <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
           </div>
         </div>
@@ -1168,7 +1168,7 @@ Membuat merencanakan konsep dari segala informasi tentang organisasi"
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><img src="assets/img/clients/client-1.1.jpg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.2.jpg" class="img-fluid" alt=""></div>
             <!-- <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
@@ -1294,7 +1294,7 @@ Membuat merencanakan konsep dari segala informasi tentang organisasi"
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Polibang Creative Studio</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
