@@ -125,11 +125,13 @@
                                         <th><center>Action</th>
                                     </tr>
                                 </thead>
-                           
+                           @php
+                           $no = 1;
+                           @endphp
                                 @foreach ($data as $d)
                                 <tbody>
                                     <tr>
-                                    <td class="text-bold-500">{{$d['No'] }}</td>
+                                    <td class="text-bold-500">{{$no++ }}</td>
                                         <td>{{$d['Title'] }}</td>
                                         <td class="text-bold-500">{{$d['Heading'] }}</td>
                                         <td>{{$d['Description'] }}</td>
@@ -137,7 +139,7 @@
                                         <td><center><a href="edit"><i
                                                     class="badge-circle badge-circle-light-secondary font-medium-1"
                                                     data-feather="edit" ></i></a> &nbsp;
-                                            <a href="/delete/{{$d['No'] }}"><i 
+                                            <a href="/delete/{{$d->No}}" onclick="return confirm('Apakah Kamu Yakin?')"><i 
                                                     class="badge-circle badge-circle-light-secondary font-medium-1"
                                                     data-feather="trash" ></i></a></td>
                                                     

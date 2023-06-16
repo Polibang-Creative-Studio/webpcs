@@ -10,7 +10,9 @@ class crud extends Model
     use HasFactory;
 
     protected $table ='activity';
+    protected $primaryKey = 'No';
     protected $fillable = [
+       
         'Title',
         'Heading',
         'Description',

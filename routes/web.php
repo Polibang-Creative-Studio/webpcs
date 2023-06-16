@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\BiografiController;
-
+use App\destroy;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -51,6 +51,6 @@ Route::post('/add', [BiografiController::class, 'create']);
 
 Route::get('/table', [BiografiController::class, 'show']);
 // Route::get('/delete/{id}', [BiografiController::class, 'delete'])->name('delete');
-Route::get('/delete/{id}', [BiografiController::class, 'delete']);
+Route::get('/delete/{No}', [BiografiController::class, 'destroy']);
 
 

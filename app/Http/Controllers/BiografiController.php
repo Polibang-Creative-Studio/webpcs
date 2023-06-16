@@ -20,10 +20,32 @@ class BiografiController extends Controller
      */
     public function create(Request $request)
     {
-        $data = $request->except(['_token']);
-        crud::insert($data);    
-        return redirect('/table');
+       
+    //    $data = $request->except(['_token']);
+    //     crud::insert($data);    
+   
         
+    
+        // return redirect('/table');
+
+    $data = crud::create($request->all());
+    if ($request->hasFile('Picture'))   {
+        $request->file('Picture')->move('foto/', $request->file('Picture')->getClientOriginalName());
+        $data->Picture = $request->file('Picture')->getClientOriginalName();
+        $data->save();
+        
+    }
+    return redirect('/table');
+
+
+        // $validatedData = $request->validate([
+        //     'Title' => 'required',
+        //     'Heading' => 'required',
+        //     'Description' => 'required',
+        //     'Picture' => 'required'
+            
+        // ]);
+        // return redirect('/table');
             // menyimpan data file yang diupload ke variabel $file
     //         $file = $request->file('file');
      
@@ -62,7 +84,7 @@ class BiografiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      //
     }
 
     /**
@@ -95,20 +117,16 @@ class BiografiController extends Controller
     {
         //
     }
-    public function delete(String $id)
-    {
-        // $data=crud::find($id);
-        // $data->delete();
-        // return redirect()->route('/table');
-
-        crud::table('activity')->where('id', $id)->delete();
-        return redirect('/table');
-    }
+   
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        $data = crud::where('No', $id)
+        ->delete();
+
+        return redirect('/table');
+       
     }
 }

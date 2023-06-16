@@ -22,6 +22,7 @@ public function authenticate(Request $request)
     if(Auth::attempt($credentials)){
         $request->session()->regenerate();
         return redirect()->intended('/dashboard');
+        
     } else {
         return redirect('/login')->with('warning', 'Email atau password tidak ditemukan');
     }
