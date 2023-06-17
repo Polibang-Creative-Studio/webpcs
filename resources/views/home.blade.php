@@ -1267,7 +1267,7 @@ Membuat merencanakan konsep dari segala informasi tentang organisasi"
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div class="col-lg-3 col-6 footer-links">
             <h4>Our Services</h4>
             <p>
               - Pembuatan Website <br>
@@ -1276,12 +1276,12 @@ Membuat merencanakan konsep dari segala informasi tentang organisasi"
             </p>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div class="col-lg-4 col-6 footer-links">
             <h4>Contact Us</h4>
             <p>
               Kepel, Buaran, Kec. Mayong<br>
               Kabupaten Jepara<br>
-               Jawa Tengah 59465<br>
+               Jawa Tengah 59465<br><br>
                <strong>Phone:</strong>
                <a href="https://wa.me/62895604244414"> +628956604244414</a><br>
               <strong>Email:</strong> polibangcreativestudio@gmail.com<br>
