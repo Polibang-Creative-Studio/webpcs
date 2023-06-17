@@ -18,6 +18,9 @@
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -31,6 +34,8 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style1.css" rel="stylesheet">
+    <script src="assets/js/script.js" defer></script>
 </head>
 
 <body>
@@ -258,502 +263,191 @@
 
         </section><!-- End Portfolio Section -->
 
-        <!-- ======= TEAM Section ======= -->
-        <section id="team" class="clients">
-            <div class="container" data-aos="fade-up">
-                <header class="section-header">
-                    <h2>Our Team</h2>
-                </header>
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                          <div class="member">
-                            <div class="member-img">
-                              <img src="assets/img/team/team-1.1.jpg" class="img-fluid" alt="">
-                              <div class="social">
-                                <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a> -->
-                                <a href="https://www.instagram.com/aindra_kurniawan/"><i class="bi bi-instagram"></i></a>
-                                <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                              </div>
-                            </div>
-                            <div class="member-info">
-                              <h4>Indra Kurniawan, M. Kom.</h4>
-                              <span>Mentor</span>
-                              <p>"Melakukan kegiatan pembelajaran/sharing session dengan mahasiswa sesuai jadwal yang ditetapkan. Melakukan observasi, 
-                                monitoring, memberikan masukan dan saran perbaikan terkait kinerja mahasiswa."</p>
-                            </div>
-                          </div>
-                        </div>
+        <!-- ======= Team Section ======= -->
+<section id="team" class="team">
 
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                            <div class="member-img">
-                            <img src="assets/img/team/team-1.2.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a> -->
-                                <a href="https://www.instagram.com/yasa.maulana1/"><i class="bi bi-instagram"></i></a>
-                                <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                            </div>
-                            </div>
-                            <div class="member-info">
-                            <h4>Yasa Maulana</h4>
-                            <span>Ketua Polibang Creative Studio</span>
-                            <p>
-                            "Melaksanakan fungsi manajemen organisasi meliputi: Perencanaan, Pengorganisasian, Pengaturan staff, 
-                            Koordinasi, Pelaksanaan program, Pengawasan, Evaluasi dan Penyusunan anggaran."
-                            </p>
-                            </div>
-                        </div>
-                        </div>
+<div class="container" data-aos="fade-up">
 
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="member-img">
-                            <img src="assets/img/team/team-1.3.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a> -->
-                                <a href="https://www.instagram.com/ana_amalya/"><i class="bi bi-instagram"></i></a>
-                                <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                            </div>
-                            </div>
-                            <div class="member-info">
-                            <h4>Ana Amalya</h4>
-                            <span>Ketua Tim Administrasi Dan Keuangan</span>
-                            <p>
-                            "Bertanggungjawab untuk memimpin dalam memanajemen Pengelolaan administrasi dan penyusunan anggaran."
-                            </p>
-                            </div>
-                        </div>
-                        </div>
+  <header class="section-header">
+    <h2>Team</h2>
+  </header>
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-1.4.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/ulilabsor._/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Ulil Absor</h4>
-                                <span>Staf Keuangan</span>
-                                <p>Bertanggung jawab dan mengelola arus keluar masuknya uang, terutama iuran dalam organisasi serta
-                                Membuat laporan pertanggungjawaban dari setiap program kerja yang telah dilaksanakan.
-                                </p>
-                                </div>
-                            </div>
-                            </div>
+  <div class="row gy-4">
+  <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.1.jpg" alt="img" draggable="false"></div>
+          <h4>Indra Kurniawan, M. Kom.</h4>
+          <span>Mentor</span>
+          <p>"Melakukan kegiatan pembelajaran/sharing session dengan mahasiswa sesuai jadwal yang ditetapkan. Melakukan observasi, 
+          monitoring, memberikan masukan dan saran perbaikan terkait kinerja mahasiswa."</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.2.jpg" alt="img" draggable="false"></div>
+          <h4>Yasa Maulana</h4>
+          <span>Ketua Polibang Creative Studio</span>
+          <p>
+          "Melaksanakan fungsi manajemen organisasi meliputi: Perencanaan, Pengorganisasian, Pengaturan staff, 
+          Koordinasi, Pelaksanaan program, Pengawasan, Evaluasi dan Penyusunan anggaran."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.3.jpg" alt="img" draggable="false"></div>
+          <h4>Ana Amalya</h4>
+          <span>Ketua Tim Administrasi Dan Keuangan</span>
+           <p>
+          "Bertanggungjawab untuk memimpin dalam memanajemen Pengelolaan administrasi dan penyusunan anggaran."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.4.jpg" alt="img" draggable="false"></div>
+          <h4>Ulil Absor</h4>
+          <span>Staf Keuangan</span>
+          <p>Bertanggung jawab dan mengelola arus keluar masuknya uang, terutama iuran dalam organisasi serta
+            Membuat laporan pertanggungjawaban dari setiap program kerja yang telah dilaksanakan.
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.5.jpg" alt="img" draggable="false"></div>
+          <h4>Muhammad Muhaimin</h4>
+          <span>Staf Administrasi</span>
+          <p>
+          "Melakukan tata kelola administrasi seperti membuat surat-menyurat serta pembukuan dan mengelola dokumen."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.6.jpg" alt="img" draggable="false"></div>
+          <h4>Ulya Nafisatussaniyah</h4>
+          <span>Staf Administrasi</span>
+          <p>
+          Melakukan tata kelola administrasi seperti membuat surat-menyurat serta pembukuan dan mengelola dokumen."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.7.jpg" alt="img" draggable="false"></div>
+          <h4>Dewi Antari</h4>
+          <span>Ketua Tim Marketing</span>
+          <p>"Bertanggungjawab memimpin anggota dalam melakukan promosi kegiatan"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.8.jpg" alt="img" draggable="false"></div>
+          <h4>Fina Ristia Nanda</h4>
+          <span>Staf Marketing</span>
+          <p>"Membantu melaksanakan dalam berpromosi kegiatan"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-1.9.jpg" alt="img" draggable="false"></div>
+          <h4>Laily Izzatul Muniroh</h4>
+          <span>Staf Digital Branding</span>
+          <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.3.jpg" alt="img" draggable="false"></div>
+          <h4>Ririn Indah Ustiyasari</h4>
+          <span>Staf Digital Branding</span>
+          <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.4.jpg" alt="img" draggable="false"></div>
+          <h4>Amar Ghifari</h4>
+          <span>Ketua Tim Software Dev</span>
+          <p>"Bertanggungjawab untuk menyampaikan segala hal yang berkaitan dengan proyek , mengatur dan mengelola 
+          kegiatan keseharian tim sehingga lebih efisien, memiliki jiwa profesional yang tinggi, serta memastikan semua target yang telah ditentukan dalam tim dapat terpenuhi tepat waktu."</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.5.jpg" alt="img" draggable="false"></div>
+          <h4>Teguh Muhamad Ridhuwan</h4>
+          <span>Intershif Web Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.0.jpg" alt="img" draggable="false"></div>
+          <h4>Nandha Ayu Ramadhani</h4>
+          <span>Intershif Web Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.1.jpg" alt="img" draggable="false"></div>
+          <h4>Deva Arya Saputra</h4>
+          <span>Intershif Web Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.2.jpg" alt="img" draggable="false"></div>
+          <h4>Nizar Nur Afif</h4>
+          <span>Intershif Mobile Dev</span>
+          <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah aplikasi android dengan bahasa pemrograman"</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.6.jpg" alt="img" draggable="false"></div>
+          <h4>Irsyadul Ibad</h4>
+          <span>Dev OPS</span>
+          <p>
+          "Menulis dokumentasi untuk fitur di sisi server (server-side). Mengembangkan, memasang, menguji, mengonfigurasi, dan memelihara solusi IT (perangkat keras maupun perangkat lunak). 
+          Mengomunikasikan persyaratan operasional dan prakiraan pengembangan dengan semua orang di tim."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.7.jpg" alt="img" draggable="false"></div>
+          <h4>Alfani Achmad Izza</h4>
+          <span>Ketua Tim Multimedia</span>
+          <p>
+          "Membuat dan mengedit video. merancang desain grafis. membuat animasi. membuat konten lainnya untuk berbagai jenis media."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.8.jpg" alt="img" draggable="false"></div>
+          <h4>Muhammad Sulthony</h4>
+          <span>Konten Kreator</span>
+          <p>
+          "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-2.9.jpg" alt="img" draggable="false"></div>
+          <h4>Salu Rukhi Delle Alpi</h4>
+          <span>Konten Kreator</span>
+          <p>
+          "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-3.0.jpg" alt="img" draggable="false"></div>
+          <h4>Dina Istiyana</h4>
+          <span>Konten Kreator</span>
+          <p>"Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."</p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-3.1.jpg" alt="img" draggable="false"></div>
+          <h4>Niken Nazwa Salsabillah</h4>
+          <span>Desain Grafis</span>
+          <p>
+          "Menyiapkan segala bentuk material untuk diubah menjadi bentuk visual dan
+          Membuat merencanakan konsep dari segala informasi tentang organisasi"
+          </p>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/img/team/team-3.3.jpg" alt="img" draggable="false"></div>
+          <h4>Muhamad Kamali</h4>
+          <span>Ketua Tim Jaringan Komputer</span>
+          <p>
+          "Melaksanakan, mengelola, mengembangkan, dan memperbaiki perangkat keras dan lunak untuk infrastruktur TIK agar dukungan layanan TIK di unit kerja lancar dan tersedia dengan baik."
+          </p>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-1.5.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/muhaimin_ahm/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Muhammad Muhaimin</h4>
-                                <span>Staf Administrasi</span>
-                                <p>
-                                    "Melakukan tata kelola administrasi seperti membuat surat-menyurat serta pembukuan dan mengelola dokumen."
-                                </p>
-                                </div>
-                            </div>
-                            </div>
+    
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-1.6.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/ulyanafisatus/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Ulya Nafisatussaniyah</h4>
-                                <span>Staf Administrasi</span>
-                                <p>
-                                "Melakukan tata kelola administrasi seperti membuat surat-menyurat serta pembukuan dan mengelola dokumen."
-                                </p>
-                                </div>
-                            </div>
-                            </div>
+  </div>
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-1.7.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/itsme.tariii_/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Dewi Antari</h4>
-                                <span>Ketua Tim Marketing</span>
-                                <p>"Bertanggungjawab memimpin anggota dalam melakukan promosi kegiatan"</p>
-                                </div>
-                            </div>
-                            </div>
+</div>
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-1.8.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/fina_ristiaa/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Fina Ristia Nanda</h4>
-                                <span>Staf Marketing</span>
-                                <p>"Membantu melaksanakan dalam berpromosi kegiatan"</p>
-                                </div>
-                            </div>
-                            </div>
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-1.9.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/lailyizzaa/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Laily Izzatul Muniroh</h4>
-                                <span>Staf Digital Branding</span>
-                                <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"</p>
-                                </div>
-                            </div>
-                            </div>
 
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-2.3.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Ririn Indah Ustiyasari</h4>
-                                <span>Staf Digital Branding</span>
-                                <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"</p>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-2.4.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/et.ghif/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Amar Ghifari</h4>
-                                <span>Ketua Tim Software Dev</span>
-                                <p>"Bertanggungjawab untuk menyampaikan segala hal yang berkaitan dengan proyek , mengatur dan mengelola 
-                                    kegiatan keseharian tim sehingga lebih efisien, memiliki jiwa profesional yang tinggi, serta memastikan semua target yang telah ditentukan dalam tim dapat terpenuhi tepat waktu."</p>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-2.5.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Teguh Muhamad Ridhuwan</h4>
-                                <span>Intershif Web Dev</span>
-                                <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-2.0.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/nandhaayura/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Nandha Ayu Ramadhani</h4>
-                                <span>Intershif Web Dev</span>
-                                <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member">
-                                <div class="member-img">
-                                <img src="assets/img/team/team-2.1.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a> -->
-                                    <a href="https://www.instagram.com/ar.depp/"><i class="bi bi-instagram"></i></a>
-                                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                </div>
-                                </div>
-                                <div class="member-info">
-                                <h4>Deva Arya Saputra</h4>
-                                <span>Intershif Web Dev</span>
-                                <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website dengan bahasa pemrograman"</p>
-                                </div>
-                            </div>
-                            </div>
-
-                                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                <div class="member">
-                                    <div class="member-img">
-                                    <img src="assets/img/team/team-2.2.jpg" class="img-fluid" alt="">
-                                    <div class="social">
-                                        <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                        <a href=""><i class="bi bi-facebook"></i></a> -->
-                                        <a href="https://www.instagram.com/nizar_4fif/"><i class="bi bi-instagram"></i></a>
-                                        <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                    </div>
-                                    </div>
-                                    <div class="member-info">
-                                    <h4>Nizar Nur Afif</h4>
-                                    <span>Intershif Mobile Dev</span>
-                                    <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah aplikasi android dengan bahasa pemrograman"</p>
-                                    </div>
-                                </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                <div class="member">
-                                    <div class="member-img">
-                                    <img src="assets/img/team/team-2.6.jpg" class="img-fluid" alt="">
-                                    <div class="social">
-                                        <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                        <a href=""><i class="bi bi-facebook"></i></a> -->
-                                        <a href="https://www.instagram.com/ibadirsyadul33/"><i class="bi bi-instagram"></i></a>
-                                        <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                    </div>
-                                    </div>
-                                    <div class="member-info">
-                                    <h4>Irsyadul Ibad</h4>
-                                    <span>Dev OPS</span>
-                                    <p>
-                                        "Menulis dokumentasi untuk fitur di sisi server (server-side). Mengembangkan, memasang, menguji, mengonfigurasi, dan memelihara solusi IT (perangkat keras maupun perangkat lunak). 
-                                        Mengomunikasikan persyaratan operasional dan prakiraan pengembangan dengan semua orang di tim."
-                                    </p>
-                                    </div>
-                                </div>
-                                </div>
-
-                                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="member">
-                                        <div class="member-img">
-                                        <img src="assets/img/team/team-2.7.jpg" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a> -->
-                                            <a href="https://www.instagram.com/achmad.izza/"><i class="bi bi-instagram"></i></a>
-                                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                        </div>
-                                        </div>
-                                        <div class="member-info">
-                                        <h4>Alfani Achmad Izza</h4>
-                                        <span>Ketua Tim Multimedia</span>
-                                        <p>
-                                            "Membuat dan mengedit video. merancang desain grafis. membuat animasi. membuat konten lainnya untuk berbagai jenis media."
-                                        </p>
-                                        </div>
-                                    </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="member">
-                                        <div class="member-img">
-                                        <img src="assets/img/team/team-2.8.jpg" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a> -->
-                                            <a href="https://www.instagram.com/jhonnysul/"><i class="bi bi-instagram"></i></a>
-                                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                        </div>
-                                        </div>
-                                        <div class="member-info">
-                                        <h4>Muhammad Sulthony</h4>
-                                        <span>Konten Kreator</span>
-                                        <p>
-                                            "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."
-                                        </p>
-                                        </div>
-                                    </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="member">
-                                        <div class="member-img">
-                                        <img src="assets/img/team/team-2.9.jpg" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a> -->
-                                            <a href="https://www.instagram.com/slrkhdll/"><i class="bi bi-instagram"></i></a>
-                                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                        </div>
-                                        </div>
-                                        <div class="member-info">
-                                        <h4>Salu Rukhi Delle Alpi</h4>
-                                        <span>Konten Kreator</span>
-                                        <p>
-                                            "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."
-                                        </p>
-                                        </div>
-                                    </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="member">
-                                        <div class="member-img">
-                                        <img src="assets/img/team/team-3.0.jpg" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a> -->
-                                            <a href=""><i class="bi bi-instagram"></i></a>
-                                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                        </div>
-                                        </div>
-                                        <div class="member-info">
-                                        <h4>Dina Istiyana</h4>
-                                        <span>Konten Kreator</span>
-                                        <p>"Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk menghasilkan suatu konten yang menarik untuk penontonnya."</p>
-                                        </div>
-                                    </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="member">
-                                        <div class="member-img">
-                                        <img src="assets/img/team/team-3.1.jpg" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a> -->
-                                            <a href=""><i class="bi bi-instagram"></i></a>
-                                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                        </div>
-                                        </div>
-                                        <div class="member-info">
-                                        <h4>Niken Nazwa Salsabillah</h4>
-                                        <span>Desain Grafis</span>
-                                        <p>
-                                            "Menyiapkan segala bentuk material untuk diubah menjadi bentuk visual dan
-                                            Membuat merencanakan konsep dari segala informasi tentang organisasi"
-                                        </p>
-                                        </div>
-                                    </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="member">
-                                        <div class="member-img">
-                                        <img src="assets/img/team/team-3.3.jpg" class="img-fluid" alt="">
-                                        <div class="social">
-                                            <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                                            <a href=""><i class="bi bi-facebook"></i></a> -->
-                                            <a href="https://www.instagram.com/m_kamali07/"><i class="bi bi-instagram"></i></a>
-                                            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                                        </div>
-                                        </div>
-                                        <div class="member-info">
-                                        <h4>Muhamad Kamali</h4>
-                                        <span>Ketua Tim Jaringan Komputer</span>
-                                        <p>
-                                            "Melaksanakan, mengelola, mengembangkan, dan memperbaiki perangkat keras dan lunak untuk infrastruktur TIK agar dukungan layanan TIK di unit kerja lancar dan tersedia dengan baik."
-                                        </p>
-                                        </div>
-                                    </div>
-                                    </div>
-      
-      
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
-                                    </div>
-                                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-
-        </section><!-- End Team Section -->
+</section><!-- End Team Section -->
 
     </main><!-- End #main -->
 
@@ -843,6 +537,8 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
