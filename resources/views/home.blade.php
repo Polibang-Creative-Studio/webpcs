@@ -105,7 +105,7 @@
             <div class="content">
               <h3>About Us</h3>
               <h4>Politeknik Balekambang Creative Studio</h4>
-              <p>
+              <p align="justify">
               <strong>Visi</strong><br>
               Mewujudkan PCS sebagai organisasi yang berintegritas, 
               progresif, dan berkualitas dalam meningkatkan kemampuan mahasiswa.<br>
