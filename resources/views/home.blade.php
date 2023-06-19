@@ -34,7 +34,6 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style1.css" rel="stylesheet">
     <script src="assets/js/script.js" defer></script>
 </head>
 
@@ -46,7 +45,7 @@
             <a href="/" class="logo d-flex align-items-center">
                 <img src="assets/img/logopcs.png" alt="">
             </a>
-            <nav id="navbar" class="navbar col-lg-7">
+            <nav id="navbar" class="navbar col-lg-6">
                 <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -54,7 +53,7 @@
                 <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
                 <li><a class="nav-link scrollto" href="#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#about">Login Admin</a></li>
+                <!-- <li><a class="getstarted scrollto" href="#about">Login Admin</a></li> -->
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -78,7 +77,7 @@
                     </div>
             </div>
             <div class="col-lg-6 hero-img" data-aos="fade-up"  data-aos-delay="200">
-                <img src="assets/img/logo.png" class="img-fluid" alt="" style="width:100%">
+                <img src="assets/img/logopcss.png" class="img-fluid" alt="" style="width:100%">
             </div>
         </div>
     </div>
@@ -120,7 +119,7 @@
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="box">
-                            <img src="assets/img/makeweb.png" class="img-fluid" alt="" style="height:60%;">
+                            <img src="assets/img/makeweb.png" class="img-fluid" alt="" style="height:50%;">
                             <h3>Pembuatan Website</h3>
                             <p>
                             Kami melayani pembuatan website untuk perusahaan, toko online, personal blog, hotel, restoran, 
@@ -132,7 +131,7 @@
 
                     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                         <div class="box">
-                            <img src="assets/img/app.png" class="img-fluid" alt="" style="height:60%;">
+                            <img src="assets/img/app.png" class="img-fluid" alt="" style="height:50%;">
                             <h3>Upload Aplikasi ke Play Store</h3>
                             <p>
                             Kami melayani jasa penguploadan aplikasi ke playstore melalui akun Google developer kami
@@ -143,7 +142,7 @@
 
                     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
                         <div class="box">
-                            <img src="assets/img/cctv.png" class="img-fluid" alt="" style="height:60%;">
+                            <img src="assets/img/cctv.png" class="img-fluid" alt="" style="height:50%;">
                             <h3>Jasa Pasang CCTV</h3>
                             <p>Kami melayani jasa pemasangan cctv dengan keterampilan yang dimiliki oleh tim terbaik kami
                             serta menawarkat beberapa paket pemasangan yang lebih menarik.<br>Silakan hubungi kami lebih lanjut!!
@@ -161,16 +160,6 @@
                 <header class="section-header">
                     <h2>Portfolio</h2>
                 </header>
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <!-- <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">ALL</li>
-                        <li data-filter=".filter-app">WEBSITE</li>
-                        <li data-filter=".filter-card">PLAY STORE</li>
-                        <li data-filter=".filter-web">CCTV</li>
-                    </ul>
-                    </div> -->
-                </div>
 
                 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -439,14 +428,9 @@
       <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
 
-    
-
   </div>
 
 </div>
-
-
-
 </section><!-- End Team Section -->
 
     </main><!-- End #main -->
