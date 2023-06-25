@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\crud;
+use Symfony\Contracts\Service\Attribute\Required;
 
 class BiografiController extends Controller
 {
@@ -19,63 +20,32 @@ class BiografiController extends Controller
      * Show the form for creating a new resource.
      */
     public function create(Request $request)
-    {
-       
-    //    $data = $request->except(['_token']);
-    //     crud::insert($data);    
+    {   
    
-        
+    $validateData= $request->validate([
+        'Title' => 'required',
+        'Heading'=> 'required',
+        'Description' => 'required|max:255',
+        'Picture' => 'image|file|max:2048'
+    ]);
     
-        // return redirect('/table');
 
-    $data = crud::create($request->all());
-    if ($request->hasFile('Picture'))   {
-        $request->file('Picture')->move('foto/', $request->file('Picture')->getClientOriginalName());
-        $data->Picture = $request->file('Picture')->getClientOriginalName();
-        $data->save();
+    if($request->file('Picture')) {
+        $validateData['Picture']= $request->file('Picture')->store('foto');
         
     }
+
+    crud::create($validateData);
+     
+    // if ($request->hasFile('Picture')){
+    //     $request->file('Picture')->store('foto/', $request->file('Picture')->getClientOriginalName());
+    //     $data->Picture = $request->file('Picture')->getClientOriginalName();
+    //     $data->save();
+        
+    // }
     return redirect('/table');
 
 
-        // $validatedData = $request->validate([
-        //     'Title' => 'required',
-        //     'Heading' => 'required',
-        //     'Description' => 'required',
-        //     'Picture' => 'required'
-            
-        // ]);
-        // return redirect('/table');
-            // menyimpan data file yang diupload ke variabel $file
-    //         $file = $request->file('file');
-     
-    //                   // nama file
-    //         echo 'File Name: '.$file->getClientOriginalName();
-    //         echo '<br>';
-     
-    //                   // ekstensi file
-    //         echo 'File Extension: '.$file->getClientOriginalExtension();
-    //         echo '<br>';
-     
-    //                   // real path
-    //         echo 'File Real Path: '.$file->getRealPath();
-    //         echo '<br>';
-     
-    //                   // ukuran file
-    //         echo 'File Size: '.$file->getSize();
-    //         echo '<br>';
-     
-    //                   // tipe mime
-    //         echo 'File Mime Type: '.$file->getMimeType();
-     
-    //                   // isi dengan nama folder tempat kemana file diupload
-    //         $tujuan_upload = 'data_file';
-     
-    //                 // upload file
-    //         $file->move($tujuan_upload,$file->getClientOriginalName());
-        
-    
-    
 
     }
 
@@ -105,17 +75,32 @@ class BiografiController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit($No)
     {
-        //
+       // $data = crud::select('*')
+       $data = crud::find($No);
+       // dd($data);
+        // ->where('No', $No)
+        // ->get();
+       return view('admin.edit',compact('data'));
+     
+        // return view('admin.edit', ['No' => $data]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request)
     {
-        //
+        $data = crud::where('No', $request->No)
+        ->update([
+               'Title' => $request->Title,
+               'Heading' => $request->Heading,
+               'Description' => $request->Description,
+               'Picture' => $request->Picture,
+        ]);
+
+        return redirect()->route('table');
     }
    
     /**

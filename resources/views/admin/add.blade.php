@@ -184,7 +184,7 @@
 
     
 <!-- batas -->
-            <form action="/add" method="post" enctype="multipart/form-data ">   
+            <form action="/add" method="post" enctype="multipart/form-data">   
             {{ csrf_field() }}
             <div class="card-body">
                 <div class="row">
@@ -203,7 +203,8 @@
                         </div>
                         <div class="form-group mb-3">
                             <label for="image" class="form-label">Picture</label>
-                            <input class="form-control" type="file" name="Picture"  required>
+                            <input class="form-control" type="file" id="image" name="Picture"  required>
+                            
                             <br>
                             <!-- button -->
                                <div class="col-12 d-flex justify-content-end">

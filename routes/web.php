@@ -52,5 +52,9 @@ Route::post('/add', [BiografiController::class, 'create']);
 Route::get('/table', [BiografiController::class, 'show']);
 // Route::get('/delete/{id}', [BiografiController::class, 'delete'])->name('delete');
 Route::get('/delete/{No}', [BiografiController::class, 'destroy']);
+Route::get('/edit/{No}', [BiografiController::class, 'edit']);
+Route::post('/update', [BiografiController::class, 'update']);
+Route::post('santri/update', [SantriController::class, 'updatesantri'])->name('updatesantri')->middleware('auth');
+Route::get('santri/ubah/{id_santri}', [SantriController::class, 'ubahsantri'])->name('ubahsantri')->middleware('auth');
 
 
