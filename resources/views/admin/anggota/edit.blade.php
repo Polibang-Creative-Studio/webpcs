@@ -6,14 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Data</title>
-   
 
     <link rel="stylesheet" href="{{url('assets/admin/css/main/app.css')}}" />
     <link rel="stylesheet" href="{{url('assets/admin/css/main/app-dark.css')}}"/>
     <link rel="shortcut icon" href="{{url('assets/admin/images/logo/favicon.svg')}}" type="image/x-icon">
     <link rel="shortcut icon" href="{{url('assets/img/logo.png')}}" type="image/x-icon">
     <link rel="shortcut icon" href="{{url('assets/img/logo.png')}}" type="image/png">
-
 
 </head>
 
@@ -60,10 +58,10 @@
                     <span>Biografi</span>
                 </a>
                 <ul class="submenu ">
-                    <li class="submenu-item active">
+                    <li class="submenu-item">
                         <a href="../table">Tabel Kegiatan</a>
                     </li>
-                    <li class="submenu-item ">
+                    <li class="submenu-item active">
                         <a href="../anggota">Daftar Anggota</a>
                     </li>
                 
@@ -76,7 +74,7 @@
                     <span>Mitra</span>
                 </a>
               
-           <li  class="sidebar-item">
+                <li  class="sidebar-item">
                 <a href="/logout" class='sidebar-link'>
                     <i class="bi bi-map-fill"></i>
                     <span>Logout</span>
@@ -102,9 +100,9 @@
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <!-- <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li> -->
+                        <!-- <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li> -->
                         <li class="breadcrumb-item" aria-current="page">Biografi</li>
-                        <li class="breadcrumb-item"><a href="/table">Tabel Kegiatan </a> </li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="/anggota">Daftar Anggota</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Edit Data</li>
                     </ol>
                 </nav>
@@ -119,37 +117,43 @@
         <div class="row" id="table-bordered">
             <div class="col-12">
                 <div class="card">
-            
+                    <!-- <div class="card-header">
+                        <h4 class="card-title">Edit Data</h4>
+                    </div> -->
                     <div class="card-content">
 
     
 <!-- batas -->
 
-
-<form action="{{ url('update', $data->No) }}" method="post" enctype="multipart/form-data">   
+<!-- <form action="/update/{{$data->No}}" method="post" enctype="multipart/form-data">    -->
+<form action="{{ url('update-anggota', $data->No) }}" method="post" enctype="multipart/form-data">   
 
             {{ csrf_field() }}
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="basicInput">Title</label>
-                            <input type="text" name="Title" class="form-control" id="basicInput" placeholder="Title" value ="{{$data['Title'] }}" required >
+                    <div class="form-group">
+                            <label for="basicInput">Nama Anggota</label>
+                            <input type="text" name="nama" class="form-control" id="basicInput" placeholder="Nama Anggota" value="{{$data['nama'] }}" required>
                         </div>
                         <div class="form-group">
-                            <label for="basicInput">Heading</label>
-                            <input type="text" name="Heading" class="form-control" id="basicInput" placeholder="Heading" value ="{{$data['Heading'] }}" required>
+                            <label for="basicInput">Jabatan</label>
+                            <input type="text" name="jabatan" class="form-control" id="basicInput" placeholder="Jabatan" value="{{$data['jabatan'] }}" required>
                         </div>
                         <div class="form-group">
-                            <label for="basicInput">Description</label>
-                            <input type="text" name="Description" class="form-control" id="basicInput" placeholder="Description" value ="{{$data['Description'] }}" required>
+                            <label for="basicInput">Sosial Media</label>
+                            <input class="form-control" name="sosmed" id="exampleFormControlTextarea1" rows="2" placeholder="Sosial Media" value="{{$data['sosmed'] }}" required>
                         </div>
                         <div class="form-group">
-                            <label for="basicInput">Picture</label>
-                            <input class="form-control" type="file" id="image" name="Picture"  value ="{{$data['Picture'] }}" required>
+                            <label for="basicInput">Tupoksi</label>
+                            <input class="form-control" name="kata_kata" id="exampleFormControlTextarea1" rows="2" placeholder="Sosial Media" value="{{$data['kata_kata'] }}" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <!-- <label for="image" class="form-label">Picture</label> -->
+                            <input class="form-control" type="file" id="image" name="gambar"  value ="{{$data['gambar'] }}" required>
                         </div>
                         <div class="form-group">
-                            <img src="{{ asset('storage/'.$data->Picture) }}" height="10%" width="50%" alt="" srcset="">
+                            <img src="{{ asset('storage/'.$data->gambar) }}" height="10%" width="50%" alt="" srcset="">
             
                         </div>
                             <br>
@@ -158,7 +162,7 @@
                             <button type="submit" class="btn btn-primary me-1 mb-1">
                               Submit
                             </button>
-                            <button  type="reset" class="btn btn-light-secondary me-1 mb-1"> <a href="/table">Back </a> </button>
+                            <button  type="reset" class="btn btn-light-secondary me-1 mb-1"> <a href="/anggota">Back </a> </button>
                           </div>
                           </div>
                        

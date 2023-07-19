@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Kegiatan</title>
+    <title>Daftar Anggota</title>
     
     <link rel="stylesheet" href="assets/admin/css/main/app.css">
     <link rel="stylesheet" href="assets/admin/css/main/app-dark.css">
@@ -57,10 +57,10 @@
                     <span>Biografi</span>
                 </a>
                 <ul class="submenu ">
-                    <li class="submenu-item active">
+                    <li class="submenu-item ">
                         <a href="../table">Tabel Kegiatan</a>
                     </li>
-                    <li class="submenu-item ">
+                    <li class="submenu-item active">
                         <a href="../anggota">Daftar Anggota</a>
                     </li>
                 
@@ -73,7 +73,7 @@
                     <span>Mitra</span>
                 </a>
               
-           <li  class="sidebar-item">
+                <li  class="sidebar-item">
                 <a href="/logout" class='sidebar-link'>
                     <i class="bi bi-map-fill"></i>
                     <span>Logout</span>
@@ -94,14 +94,14 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>Tabel Kegiatan</h3>
+                <h3>Daftar Anggota</h3>
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
                         <!-- <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li> -->
                         <li class="breadcrumb-item" aria-current="page">Biografi</li>
-                        <li class="breadcrumb-item active" aria-current="page"><a href="/dashboard">Tabel Kegiatan</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="/anggota">Daftar Anggota</a></li>
                     </ol>
                 </nav>
             </div>
@@ -118,7 +118,7 @@
                 <div class="card">
                     <div class="card-header">
                         <!-- <h4 class="card-title">Table</h4> -->
-                        <p style="text-align: right;" ><a href="add" style="color: white;">Tambah Data</a></p>
+                        <p style="text-align: right;" ><a href="/tambah" style="color: white;">Tambah Data</a></p>
                    
                   
                     <div class="card-content">
@@ -130,10 +130,11 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Title</th>
-                                        <th>Heading</th>
-                                        <th>Description</th>
-                                        <th>Picture</th>
+                                        <th>Nama</th>
+                                        <th>Jabatan</th>
+                                        <th>Sosial Media</th>
+                                        <th>Tupoksi</th>
+                                        <th>Gambar</th>
                                         <th><center>Action</th>
                                     </tr>
                                 </thead>
@@ -146,14 +147,15 @@
                                 <tbody>
                                     <tr>
                                     <td class="text-bold-500-flex" >{{$no++ }}</td>
-                                        <td>{{$d['Title'] }}</td>
-                                        <td class="text-bold-500">{{$d['Heading'] }}</td>
-                                        <td>{{$d['Description'] }}</td>
-                                        <td class="text-bold-500"><img src="{{ asset('storage/'.$d->Picture) }}" alt="" srcset="" style="width: 60px;"></style></td>
-                                        <td><center><a href="/edit/{{$d->No}}"><i
+                                        <td>{{$d['nama'] }}</td>
+                                        <td class="text-bold-500">{{$d['jabatan'] }}</td>
+                                        <td>{{$d['sosmed'] }}</td>
+                                        <td>{{$d['kata_kata'] }}</td>
+                                        <td class="text-bold-500"><img src="{{ asset('storage/'.$d->gambar) }}" alt="" srcset="" style="width: 60px;"></style></td>
+                                        <td><center><a href="/edit-anggota/{{$d->No}}"><i
                                                     class="badge-circle badge-circle-light-secondary font-medium-1"
                                                     data-feather="edit" ></i></a> &nbsp;
-                                            <a href="/delete/{{$d->No}}" onclick="return confirm('Apakah Kamu Yakin?')"><i 
+                                            <a href="/delete-anggota/{{$d->No}}" onclick="return confirm('Apakah Kamu Yakin?')"><i 
                                                     class="badge-circle badge-circle-light-secondary font-medium-1"
                                                     data-feather="trash" ></i></a></td>
                                                     

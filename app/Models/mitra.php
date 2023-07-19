@@ -5,21 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class crud extends Model
+class mitra extends Model
 {
     use HasFactory;
 
-    protected $table ='activity';
+    protected $table ='mitra';
     protected $primaryKey = 'No';
     protected $fillable = [
        
-        'Title',
-        'Heading',
-        'Description',
-        'Name',
-        'Picture'
+        'nama',
+        'gambar'
     ];
     protected $hidden;
 }
 
-  
+   

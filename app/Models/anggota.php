@@ -5,21 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class crud extends Model
+class anggota extends Model
 {
     use HasFactory;
-
-    protected $table ='activity';
+    protected $table ='anggota';
     protected $primaryKey = 'No';
     protected $fillable = [
        
-        'Title',
-        'Heading',
-        'Description',
-        'Name',
-        'Picture'
+        'nama' ,
+        'jabatan',
+        'sosmed',
+        'kata_kata',
+        'gambar'
     ];
     protected $hidden;
 }
 
-  

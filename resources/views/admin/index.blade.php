@@ -40,7 +40,7 @@
             <form action="/login" method="post"> 
                 @csrf
                 <div class="form-group position-relative has-icon-left mb-4">
-                    <input type="text" name="name" class="form-control form-control-xl" placeholder="Username" required>
+                    <input type="text" name="name" class="form-control form-control-xl" placeholder="Username" required autocomplete="off">
                     <div class="form-control-icon">
                         <i class="bi bi-person" ></i>
                     </div>

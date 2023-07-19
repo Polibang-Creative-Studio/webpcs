@@ -1,12 +1,11 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Kegiatan</title>
+    <title>Tambah Daftar Anggota</title>
     
     <link rel="stylesheet" href="assets/admin/css/main/app.css">
     <link rel="stylesheet" href="assets/admin/css/main/app-dark.css">
@@ -57,10 +56,10 @@
                     <span>Biografi</span>
                 </a>
                 <ul class="submenu ">
-                    <li class="submenu-item active">
+                    <li class="submenu-item ">
                         <a href="../table">Tabel Kegiatan</a>
                     </li>
-                    <li class="submenu-item ">
+                    <li class="submenu-item active ">
                         <a href="../anggota">Daftar Anggota</a>
                     </li>
                 
@@ -68,12 +67,12 @@
                 </ul>
             </li>
             <li  class="sidebar-item">
-                <a href="../mitra" class='sidebar-link'>
+                <a href="#" class='sidebar-link'>
                     <i class="bi bi-hexagon-fill"></i>
                     <span>Mitra</span>
                 </a>
               
-           <li  class="sidebar-item">
+                <li  class="sidebar-item">
                 <a href="/logout" class='sidebar-link'>
                     <i class="bi bi-map-fill"></i>
                     <span>Logout</span>
@@ -89,19 +88,21 @@
                     <i class="bi bi-justify fs-3"></i>
                 </a>
             </header>
-            
+         
 <div class="page-heading">
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>Tabel Kegiatan</h3>
+                <h3>Tambah Daftar Anggota</h3>
+              
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <!-- <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li> -->
+                        <!-- <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li> -->
                         <li class="breadcrumb-item" aria-current="page">Biografi</li>
-                        <li class="breadcrumb-item active" aria-current="page"><a href="/dashboard">Tabel Kegiatan</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="/anggota">Daftar Anggota</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Tambah Daftaf Anggota</li>
                     </ol>
                 </nav>
             </div>
@@ -111,71 +112,70 @@
  
 
     <!-- Bordered table start -->
-   
     <section class="section">
         <div class="row" id="table-bordered">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <!-- <h4 class="card-title">Table</h4> -->
-                        <p style="text-align: right;" ><a href="add" style="color: white;">Tambah Data</a></p>
-                   
-                  
+                    <!-- <div class="card-header">
+                        <h4 class="card-title">Add Data</h4>
+                    </div> -->
                     <div class="card-content">
-                    </div>
-                        <!-- table bordered -->
-                        <div class="table-responsive">
-                      
-                            <table class="table table-bordered mb-0">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Title</th>
-                                        <th>Heading</th>
-                                        <th>Description</th>
-                                        <th>Picture</th>
-                                        <th><center>Action</th>
-                                    </tr>
-                                </thead>
-                           @php
-                           $no = 1;
-                           $edit = 1;
-                           @endphp
-                                @foreach ($data as $d)
-                              
-                                <tbody>
-                                    <tr>
-                                    <td class="text-bold-500-flex" >{{$no++ }}</td>
-                                        <td>{{$d['Title'] }}</td>
-                                        <td class="text-bold-500">{{$d['Heading'] }}</td>
-                                        <td>{{$d['Description'] }}</td>
-                                        <td class="text-bold-500"><img src="{{ asset('storage/'.$d->Picture) }}" alt="" srcset="" style="width: 60px;"></style></td>
-                                        <td><center><a href="/edit/{{$d->No}}"><i
-                                                    class="badge-circle badge-circle-light-secondary font-medium-1"
-                                                    data-feather="edit" ></i></a> &nbsp;
-                                            <a href="/delete/{{$d->No}}" onclick="return confirm('Apakah Kamu Yakin?')"><i 
-                                                    class="badge-circle badge-circle-light-secondary font-medium-1"
-                                                    data-feather="trash" ></i></a></td>
-                                                    
-                                    </tr>
-                                    @endforeach
-                                  
-                                </tbody>
-                            </table>
+
+    
+<!-- batas -->
+            <form action="/tambah" method="post" enctype="multipart/form-data">   
+            {{ csrf_field() }}
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="basicInput">Nama Anggota</label>
+                            <input type="text" name="nama" class="form-control" id="basicInput" placeholder="Nama Anggota" required>
                         </div>
+                        <div class="form-group">
+                            <label for="basicInput">Jabatan</label>
+                            <input type="text" name="jabatan" class="form-control" id="basicInput" placeholder="Jabatan"  required>
+                        </div>
+                        <div class="form-group">
+                            <label for="basicInput">Sosial Media</label>
+                            <input class="form-control" name="sosmed" id="exampleFormControlTextarea1" rows="2" placeholder="Sosial Media"  required>
+                        </div>
+                        <div class="form-group">
+                            <label for="basicInput">Tupoksi</label>
+                            <textarea type="text-file" name="kata_kata" class="form-control" id="basicInput" placeholder="Tupoksi"  required></textarea>
+                        </div>
+                        <div class="form-group mb-3">
+                            <!-- <label for="image" class="form-label">Picture</label> -->
+                            <input class="form-control" type="file" id="image" name="gambar"  value ="" required>
+                        </div>
+                            
+                            <br>
+                            <!-- button -->
+                               <div class="col-12 d-flex left-content-end">
+                            <button type="submit" class="btn btn-primary me-1 mb-1">
+                              Submit
+                            </button>
+                            <button  type="reset" class="btn btn-light-secondary me-1 mb-1"> <a href="anggota">Back </a> </button>
+                          </div>
+                          </div>
+                     
                     </div>
                 </div>
             </div>
         </div>
+     
     </section>
-    <!-- Bordered table end -->
 
    
+
+<!-- </div> -->
+
+        
+          
         </div>
     </div>
     <script src="assets/admin/js/bootstrap.js"></script>
     <script src="assets/admin/js/app.js"></script>
-    
 </body>
 
 </html>
