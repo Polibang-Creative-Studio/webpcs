@@ -18,6 +18,8 @@
     <link href="{{ url('assets/img/favicon.png') }}" rel="icon">
     <link href="{{ url('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <!-- Fontawesome Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
@@ -311,6 +313,7 @@
                                     penyusunan anggaran."
                                 </p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-1.4.jpg" alt="img"
                                         draggable="false"></div>
@@ -342,6 +345,7 @@
                                     dan mengelola dokumen."
                                 </p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-1.7.jpg" alt="img"
                                         draggable="false"></div>
@@ -364,6 +368,7 @@
                                 <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang baik"
                                 </p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-2.3.jpg" alt="img"
                                         draggable="false"></div>
@@ -391,6 +396,7 @@
                                 <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website
                                     dengan bahasa pemrograman"</p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-2.0.jpg" alt="img"
                                         draggable="false"></div>
@@ -415,6 +421,7 @@
                                 <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah aplikasi android
                                     dengan bahasa pemrograman"</p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-2.6.jpg" alt="img"
                                         draggable="false"></div>
@@ -448,6 +455,7 @@
                                     suatu konten yang menarik untuk penontonnya."
                                 </p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-2.9.jpg" alt="img"
                                         draggable="false"></div>
@@ -476,6 +484,7 @@
                                     Membuat merencanakan konsep dari segala informasi tentang organisasi"
                                 </p>
                             </li>
+
                             <li class="card">
                                 <div class="img"><img src="assets/img/team/team-3.3.jpg" alt="img"
                                         draggable="false"></div>
@@ -490,6 +499,225 @@
                         </ul>
                         <i id="right" class="fa-solid fa-angle-right"></i>
                     </div>
+
+                    {{-- <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-1.4.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Ulil Absor</h4>
+                                    <span>Staf Keuangan</span>
+                                    <p>Bertanggung jawab dan mengelola arus keluar masuknya uang, terutama iuran dalam
+                                        organisasi serta
+                                        Membuat laporan pertanggungjawaban dari setiap program kerja yang telah
+                                        dilaksanakan.
+                                    </p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-1.5.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Muhammad Muhaimin</h4>
+                                    <span>Staf Administrasi</span>
+                                    <p>
+                                        "Melakukan tata kelola administrasi seperti membuat surat-menyurat serta
+                                        pembukuan
+                                        dan mengelola dokumen."
+                                    </p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-1.6.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Ulya Nafisatussaniyah</h4>
+                                    <span>Staf Administrasi</span>
+                                    <p>
+                                        Melakukan tata kelola administrasi seperti membuat surat-menyurat serta
+                                        pembukuan
+                                        dan mengelola dokumen."
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-1.7.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Dewi Antari</h4>
+                                    <span>Ketua Tim Marketing</span>
+                                    <p>"Bertanggungjawab memimpin anggota dalam melakukan promosi kegiatan"</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-1.8.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Fina Ristia Nanda</h4>
+                                    <span>Staf Marketing</span>
+                                    <p>"Membantu melaksanakan dalam berpromosi kegiatan"</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-1.9.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Laily Izzatul Muniroh</h4>
+                                    <span>Staf Digital Branding</span>
+                                    <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang
+                                        baik"
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.3.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Ririn Indah Ustiyasari</h4>
+                                    <span>Staf Digital Branding</span>
+                                    <p>"Bertanggungjawab dalam membangun dan mempertahankan reputasi organisasi yang
+                                        baik"
+                                    </p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.4.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Amar Ghifari</h4>
+                                    <span>Ketua Tim Software Dev</span>
+                                    <p>"Bertanggungjawab untuk menyampaikan segala hal yang berkaitan dengan proyek ,
+                                        mengatur dan mengelola
+                                        kegiatan keseharian tim sehingga lebih efisien, memiliki jiwa profesional yang
+                                        tinggi, serta memastikan semua target yang telah ditentukan dalam tim dapat
+                                        terpenuhi tepat waktu."</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.5.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Teguh Muhamad Ridhuwan</h4>
+                                    <span>Intershif Web Dev</span>
+                                    <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website
+                                        dengan bahasa pemrograman"</p>
+                                </li>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.0.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Nandha Ayu Ramadhani</h4>
+                                    <span>Intershif Web Dev</span>
+                                    <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website
+                                        dengan bahasa pemrograman"</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.1.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Deva Arya Saputra</h4>
+                                    <span>Intershif Web Dev</span>
+                                    <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah situs website
+                                        dengan bahasa pemrograman"</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.2.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Nizar Nur Afif</h4>
+                                    <span>Intershif Mobile Dev</span>
+                                    <p>"Membantu dalam membuat atau merancang serta mengembangkan sebuah aplikasi
+                                        android
+                                        dengan bahasa pemrograman"</p>
+                                </li>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.6.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Irsyadul Ibad</h4>
+                                    <span>Dev OPS</span>
+                                    <p>
+                                        "Menulis dokumentasi untuk fitur di sisi server (server-side). Mengembangkan,
+                                        memasang, menguji, mengonfigurasi, dan memelihara solusi IT (perangkat keras
+                                        maupun
+                                        perangkat lunak).
+                                        Mengomunikasikan persyaratan operasional dan prakiraan pengembangan dengan semua
+                                        orang di tim."
+                                    </p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.7.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Alfani Achmad Izza</h4>
+                                    <span>Ketua Tim Multimedia</span>
+                                    <p>
+                                        "Membuat dan mengedit video. merancang desain grafis. membuat animasi. membuat
+                                        konten lainnya untuk berbagai jenis media."
+                                    </p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.8.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Muhammad Sulthony</h4>
+                                    <span>Konten Kreator</span>
+                                    <p>
+                                        "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk
+                                        menghasilkan
+                                        suatu konten yang menarik untuk penontonnya."
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-2.9.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Salu Rukhi Delle Alpi</h4>
+                                    <span>Konten Kreator</span>
+                                    <p>
+                                        "Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk
+                                        menghasilkan
+                                        suatu konten yang menarik untuk penontonnya."
+                                    </p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-3.0.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Dina Istiyana</h4>
+                                    <span>Konten Kreator</span>
+                                    <p>"Mengumpulkan ide, data, serta melakukan riset dan membuat konsep untuk
+                                        menghasilkan
+                                        suatu konten yang menarik untuk penontonnya."</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-3.1.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Niken Nazwa Salsabillah</h4>
+                                    <span>Desain Grafis</span>
+                                    <p>
+                                        "Menyiapkan segala bentuk material untuk diubah menjadi bentuk visual dan
+                                        Membuat merencanakan konsep dari segala informasi tentang organisasi"
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="carousel-item">
+                                <li class="card">
+                                    <div class="img"><img src="assets/img/team/team-3.3.jpg" alt="img"
+                                            draggable="false"></div>
+                                    <h4>Muhamad Kamali</h4>
+                                    <span>Ketua Tim Jaringan Komputer</span>
+                                    <p>
+                                        "Melaksanakan, mengelola, mengembangkan, dan memperbaiki perangkat keras dan
+                                        lunak
+                                        untuk infrastruktur TIK agar dukungan layanan TIK di unit kerja lancar dan
+                                        tersedia
+                                        dengan baik."
+                                    </p>
+                                </li>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div> --}}
 
                 </div>
 
@@ -594,6 +822,7 @@
     <script src="{{ url('assets/js/main.js') }}"></script>
     <!-- Template Main JS File -->
     <script src="{{ url('assets/js/script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 
 </html>
