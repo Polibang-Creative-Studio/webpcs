@@ -18,7 +18,7 @@
     <link href="{{ url('assets/img/favicon.png') }}" rel="icon">
     <link href="{{ url('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> --}}
 
     <!-- Fontawesome Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -822,7 +822,7 @@
     <script src="{{ url('assets/js/main.js') }}"></script>
     <!-- Template Main JS File -->
     <script src="{{ url('assets/js/script.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> --}}
 </body>
 
 </html>
